@@ -14,10 +14,10 @@ a better understanding of the problems you encountered during the developmemnt o
 | scr | Source code - create as many subdirectories as needed |
 
 ## Project Team
-- *Mentor's Name*  - *Company Affliation* - Mentor
+- Miheret Yitayew  - VCU Health - Mentor
 - *Technical Advisor Name* - *Company Affliation* - Technical Advisor
-- *Faculty Advisor's Name* - *Department* - Faculty Advisor
-- *Student's Name* - *major* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
-- *Student's Name* - *major* - Student Team Member
+- Tamer Nadeem - VCU Computer Science - Faculty Advisor
+- Marcus Moore - CS - Student Team Member
+- Alan Leal - CS - Student Team Member
+- Michael Martinez-Posadas - CS - Student Team Member
+- Raza Haider - BME - Student Team Member
