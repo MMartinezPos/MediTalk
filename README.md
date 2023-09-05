@@ -1,4 +1,4 @@
-# *Your Project Description*
+# *MediTalk --- Real-time AI-Powered Medical Interpreter System*
 ## *Sponsoring Company or Organization*
 ## *Short Project Description*
 The directory structure in this GitHub is to allow the project to have all its resources self-contained.
