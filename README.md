@@ -1,5 +1,5 @@
-# *MediTalk --- Real-time AI-Powered Medical Interpreter System*
-## *Sponsoring Company or Organization*
+# *MediTalk — Real-time AI-Powered Medical Interpreter System*
+## VCU Health
 ## *Short Project Description*
 The directory structure in this GitHub is to allow the project to have all its resources self-contained.
 Open Source software should not just be a repository of code.  There are a number of directories to help you and others that will 
@@ -21,3 +21,4 @@ a better understanding of the problems you encountered during the developmemnt o
 - Alan Leal - CS - Student Team Member
 - Michael Martinez-Posadas - CS - Student Team Member
 - Raza Haider - BME - Student Team Member
+- Matvey Starchenko - BME - Student Team Member
