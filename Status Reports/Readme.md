@@ -10,8 +10,8 @@ Status Report Template: https://github.com/VCU-CS-Capstone/0000---Capstone-Templ
 | Document | Tasks | Accomplishments | Issues |
 |---|---|---|---|
 | Project Plan | Overall week by week plan of milestones | | |
-| Week 1 Status Report | | | |
-| Week 2 Status Report | | | |
+| Week 1 Status Report | ??? | | |
+| Week 2 Status Report | Researching technologies to help us understand problem definition. | | |
 | Week 3 Status Report | | | |
 | Week 4 Status Report | | | |
 | Week 5 Status Report | | | |
