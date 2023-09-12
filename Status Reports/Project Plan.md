@@ -1,11 +1,11 @@
-# *CSnnn Project Name*
-## **Sponsor:**
+# *MULT-24-612 - MediTalk - Real-time AI-Powered Medical Interpreter System*
+## **Sponsor:Miheret Yitayew**
 
-**Students' Names:**
+**Students' Names: Marcus Moore, Alan Leal, Michael Martinez-Posadas, Matvey Starchenko, Raza Saider**
 
 **Mentor:**
 
-**Faculty Advisor:**
+**Faculty Advisor:Tamer Nadeem**
 
 **Project:**
 
