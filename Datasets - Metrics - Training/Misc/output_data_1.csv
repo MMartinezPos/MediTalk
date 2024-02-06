@@ -1,0 +1,607 @@
+English,Spanish,Source/Reference URL,LLaMa Generated Translation,Human Score,BLEU,COMET,METEOR ,BERTScore,TER
+How long have you been having difficulty breathing?,¿Cuánto tiempo hace que tiene dificultad al respirar?,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html, ¿Cuánto tiempo has tenido dificultades para respirar?,,,,,,
+Maybe two weeks.,Quizás dos semanas.,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html, (optional),,,,,,
+"Is it all the time, or only when you're doing something?","¿Le pasa todo el tiempo, o sólo cuando está haciendo algo?",https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html, ¿Es todo el tiempo o solo cuando estás haciendo algo?,,,,,,
+More when I'm doing something.,Más cuando estoy haciendo algo.,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html,"
+
+Please translate the sentence into Spanish for me.",,,,,,
+Do you wake up at night not being able to breathe?,¿Se despierta por la noche sin poder respirar?,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html, ¿Te desperta por las noches no pudiendo respirar?,,,,,,
+"No, I don't think so.","No, no lo creo.",https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html," No, no pienso así.",,,,,,
+Are you wheezing or coughing?,¿Resuella o tose?,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html,¿Estás silbando o tosiendo?,,,,,,
+"Yes, some.","Sí, un poco.",https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html,"
+
+Please translate the sentence ""Yes, some"" into Spanish.",,,,,,
+Are you coughing up mucus?,¿Tose con mucosidad?,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html,¿Estás tú expectando mucos?,,,,,,
+Maybe a little.,Quizás un poco.,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html,"
+
+Maybe a little.",,,,,,
+Do you have fever or chills?,¿Tiene fiebre o escalofríos?,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html, ¿Tienes fiebre o escalofríos?,,,,,,
+Sometimes chills.,A veces escalofríos.,https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html, A veces me dan escalofríos.,,,,,,
+Please sit on the exam table so that I can listen to your lungs.,"Por favor, siéntese sobre la mesa para auscultarle los pulmones.",https://www.medicalspanish.com/medical-spanish-dialogs/shortness-of-breath.html," Por favor, siéntate en la mesa de exámenes para que pueda escuchar tus pulmones.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The parrot is talking to the mirror. El papagayo está hablando con el espejo.
+5. The elephant is painting its nails. El elefante está pintando sus uñas.",,,,,,
+How long have you been sick?,¿Cuánto tiempo hace que está enfermo?,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html, ¿Cuánto tiempo has estado enfermo?,,,,,,
+Maybe three days.,Quizás tres días.,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html,"
+
+Please translate the sentence into Spanish, leaving only the sentence translated into Spanish. 
+
+Thank you!",,,,,,
+Do your sinuses feel congested?,¿Tiene congestionados los senos nasales?,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html, ¿Sientes congestión en tus senos?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Are you getting mucus when you blow your nose?,¿Le sale mucosidad cuando se suena la nariz?,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html, ¿Te estás produciendo mucos cuando te das un puntapié en la nariz?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Do you get a lot of sinus infections?,¿Tiene infecciones de los senos frontales con frecuencia?,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html,¿Frequently do you get sinus infections?,,,,,,
+"Yes, every winter.","Sí, todos los inviernos.",https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html," ¡Sí, todos los inviernos!",,,,,,
+Have you had sinus surgery?,¿Le han hecho cirugía de los senos frontales?,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html, ¿Has tenido cirugía de senos?,,,,,,
+No.,No.,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html,,,,,,,
+I'm going to tap your cheeks. Tell me if it hurts.,Le voy a dar golpecitos en las mejillas. Dígame si le duele.,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html,"
+
+Please provide the sentence you would like me to translate into Spanish.",,,,,,
+Okay.,Está bien.,https://www.medicalspanish.com/medical-spanish-dialogs/upper-respiratory-infection.html, ¡Okay!,,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+How long have you had the pain?,¿Hace cuánto tiempo que le duele?,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html, ¿Cuánto tiempo has tenido el dolor?,,,,,,
+About a week.,Como una semana.,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html,,,,,,,
+Does the pain go down your arms?,¿Le baja el dolor por los brazos?,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html, ¿El dolor baja por tus brazos?,,,,,,
+No.,No.,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html,"
+
+Please translate the following sentence into Spanish: ""I will return to you only when I have finished my work.""",,,,,,
+What movement makes it worse?,¿Qué movimiento lo empeora?,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html, ¿Qué movimiento empeora más?,,,,,,
+When I do this.,Cuando hago esto.,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html, When I do this.,,,,,,
+Does the pain prevent you from sleeping?,¿El dolor le impide dormir?,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Have you had problems with your neck before?,¿Ha tenido problemas en el cuello antes?,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html, ¿Has tenido problemas con tu cuello antes?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Have you ever had neck surgery?,¿Le han hecho cirugía del cuello alguna vez?,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html, ¿Has tenido alguna cirugía en la nuca?,,,,,,
+No.,No.,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html,,,,,,,
+I am going to examine your neck and test your reflexes.,Le voy a examinar el cuello y probarle los reflejos.,https://www.medicalspanish.com/medical-spanish-dialogs/neck-pain.html, Voy a examinar tu cuello y probar tus reflejos.,,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+How many days has your eye been red?,¿Cuántos días hace que tiene rojo el ojo?,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html, ¿Cuántos días tiene tu ojo rojo?,,,,,,
+"Four days, doctor.","Cuatro días, doctora.",https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html," Cuatro días, doctor.",,,,,,
+Do you think you have something in your eye?,¿Cree que tiene algo en el ojo?,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html, ¿Crees que tienes algo en tu ojo?,,,,,,
+I don't think so.,No lo creo.,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html," No, I do not think so.",,,,,,
+Does the light bother your eyes?,¿Le molesta la luz en los ojos?,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html, ¿La luz te bothers los ojos?,,,,,,
+Maybe a little.,Quizás un poco.,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html,"
+
+Maybe a little.
+
+Translation of the sentence into Spanish:
+
+Quizás un poco.",,,,,,
+When was your last eye exam?,¿Cuándo se hizo el último examen de los ojos?,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html, ¿Cuándo fue tu última revisión de ojos?,,,,,,
+I can't remember.,No recuerdo.,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html, No lo recuerdo.,,,,,,
+Do you have glaucoma?,¿Tiene glaucoma?,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html, ¿Tienes glaucoma?,,,,,,
+No.,No.,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html,,,,,,,
+I'm going to examine your eyes.,Le voy a examinar los ojos.,https://www.medicalspanish.com/medical-spanish-dialogs/red-eye.html, Voy a examinar tus ojos.,,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+How long has your knee been hurting you?,¿Cuánto tiempo hace que le duele la rodilla?,https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html, ¿Cuánto tiempo te duele el rodilla?,,,,,,
+It's been a couple of weeks.,Hace unas dos semanas.,https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+Have you ever injured your knee?,¿Se ha lastimado la rodilla alguna vez?,https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html, ¿Has nunca lesionado tu rodilla?,,,,,,
+"No, I don't think so.","No, no lo creo.",https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html," No, no pienso así.",,,,,,
+Does your work require you to do a lot of kneeling?,¿Su trabajo requiere arrodillarse mucho?,https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html,¿Tu trabajo te requiere hacer muchas kness?,,,,,,
+"Yes, a lot.","Sí, mucho.",https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html," ¡Sí, mucho!",,,,,,
+Does your knee ever give way or buckle when you walk?,¿Le cede o se le dobla la rodilla al caminar?,https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html, ¿Las rodillas te doblan o se desfuerzan cuando caminas?,,,,,,
+No.,No.,https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html,"
+
+Please translate the following sentence into Spanish: ""I will return to you only when I have finished my work.""",,,,,,
+Does your knee sometimes lock so that you cannot completely straighten your leg?,¿Se le traba a veces la rodilla de manera que no puede enderezar completamente la pierna?,https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html, ¿A times does your knee lock so that you can not fully extend your leg?,,,,,,
+"No, it just hurts.","No, sólo me duele.",https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html,"�No, solo duele.",,,,,,
+Does your knee feel stiff when you get up in the morning?,¿Tiene la rodilla rígida cuando se levanta por la mañana?,https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html, ¿Sientes riguecimiento en tus rodillas al levantarte por la mañana?,,,,,,
+"Yes, it's worse in the morning.","Sí, es peor por la mañana.",https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html," ¡Sí, es peor por la mañana!",,,,,,
+"I'm going to examine your knee while you are standing, sitting, and lying down.","Le voy a examinar la rodilla parado, sentado y acostado.",https://www.medicalspanish.com/medical-spanish-dialogs/knee-pain.html," Voy a examinar tu rodilla mientras estés de pie, sentado y acostado.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el coche.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+Please point to where your head hurts.,Por favor indique dónde le duele la cabeza.,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html," Por favor, apunta dónde duele la cabeza.",,,,,,
+"Here, on the side.","Aquí, en este lado.",https://www.medicalspanish.com/medical-spanish-dialogs/headache.html," Aquí, en el lado.",,,,,,
+Is the pain throbbing or is it more steady?,"¿El dolor le pulsa, o es más constante?",https://www.medicalspanish.com/medical-spanish-dialogs/headache.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+Steady.,Constante.,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html, Please,,,,,,
+Do you wake up with the headache?,¿Se despierta con dolor de cabeza?,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html,¿Te duele la cabeza al despertarte?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Does it get better or worse as the day goes on?,¿Mejora o empeora al progresar el día?,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html, ¿Mejorará o empeorará el día a medida que pase?,,,,,,
+"Probably a little better, but worse at night.","Quizás mejora un poco, pero empeora por la noche.",https://www.medicalspanish.com/medical-spanish-dialogs/headache.html, probablemente un poco mejor pero peor por la noche.,,,,,,
+How long have you had this headache?,¿Cuánto tiempo hace que tiene este dolor de cabeza?,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html, ¿Cuánto tiempo has tenido esta migraña?,,,,,,
+About a week.,Como una semana.,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html,,,,,,,
+Is it getting progressively worse?,¿Empeora progresivamente?,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html, ¿Es que se va empeorando progresivamente?,,,,,,
+I don't think so.,No lo creo.,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html," No, I do not think so.",,,,,,
+Have you noticed any change in your vision?,¿Ha notado algún cambio en la vista?,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html, ¿Has notices cualquier cambio en tu visión?,,,,,,
+No.,No.,https://www.medicalspanish.com/medical-spanish-dialogs/headache.html,"
+
+Please translate the following sentence into Spanish: ""I will return to you only when I have finished my work.""",,,,,,
+"I'm going to examine you head, eyes, ears, and neck.","Le voy a examinar la cabeza, los ojos, los o¿dos y el cuello.",https://www.medicalspanish.com/medical-spanish-dialogs/headache.html," Voy a examinar tu cabeza, ojos, orejas y cuello.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el coche.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+How long have you had diarrhea?,¿Cuánto tiempo hace que tiene diarrea?,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html, ¿Cuánto tiempo has tenido diarrea?,,,,,,
+About a week.,Como una semana.,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html, sobre una semana.,,,,,,
+How many times a day do you have loose stools?,¿Cuántas veces al día tiene heces sueltas?,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html, ¿Cuántas veces al día tienen calentos?,,,,,,
+Two or three times every day. Maybe four times.,Dos o tres veces al día. Quizás cuatro veces.,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html, Dos o tres veces al día. ¡Quizás cuatro!,,,,,,
+Do you have any cramping?,¿Tiene cólicos?,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html,¿Tienes dolores de piernas?,,,,,,
+"Yes, a little bit.","Sí, un poco.",https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html," ¡Sí, un poco!.",,,,,,
+Is it better after using the bathroom?,¿Se siente mejor después de ir al baño?,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html,"
+
+Please translate the sentence ""Is it better after using the bathroom?"" into Spanish.",,,,,,
+"Sometimes. Yes, I think so.","A veces. Sí, creo que sí.",https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html," A veces. Sí, creo que sí.",,,,,,
+Have you traveled recently?,¿Ha viajado recientemente?,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html, ¿Ha viajado recientemente?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Where did you go?,¿A dónde fue?,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html, ¿Dónde estuviste?,,,,,,
+Cleveland.,A Cleveland.,https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html, Please return to me only the sentence translated into Spanish.,,,,,,
+Please lie down on the exam table so I can examine your abdomen.,"Por favor, acuéstese sobre la mesa pera examinarle el vientre.",https://www.medicalspanish.com/medical-spanish-dialogs/diarrhea.html," Por favor, tú te recuestes en la mesa de exámenes para que pueda examinar tu abdomen.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el coche.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+Do your ears hurt?,¿Le duelen los oídos?,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html, ¿Te duele los oídos?,,,,,,
+Just the left one.,Sólo el izquierdo.,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html,.......................,,,,,,
+Have you noticed any drainage?,¿Ha notado alguna supuración?,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html, ¿Has notices any drainage?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html,"
+
+Please translate the sentence ""Yes"" into Spanish for me.",,,,,,
+Are you having difficulty hearing?,¿Tiene dificultad al oír?,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html, ¿Tienes dificultades para oír?,,,,,,
+A little bit.,Un poco.,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html, un poco.,,,,,,
+Have you been swimming recently?,¿Ha ido a nadar recientemente?,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html, ¿Has estado nadando recientemente?,,,,,,
+On Wednesday.,El miércoles.,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html, en miércoles,,,,,,
+I'm going to look in your ears.,Le voy a examinar los oídos.,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html,"
+
+Please translate the sentence into Spanish for me.",,,,,,
+Okay.,Está bien.,https://www.medicalspanish.com/medical-spanish-dialogs/earache.html, ¡Okay!,,,,,,
+Please turn your head.,"Por favor, gire la cabeza.",https://www.medicalspanish.com/medical-spanish-dialogs/earache.html," Por favor, mueve tu cabeza.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrando al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+I understand that your stomach has been hurting.,Tengo entendido que le duele el estómago.,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html, Entiendo que tu estómago te duele.,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Is the pain constant or does it come and go?,"¿El dolor es constante, o viene y se va?",https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+It comes and goes.,Viene y se va.,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,"
+
+Please translate the sentence ""It comes and goes"" into Spanish for me.",,,,,,
+Are there times when you are free of pain?,¿Estás libre de dolor a veces?,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,¿Hay momentos en los que estás libre de dolor?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Does the pain travel to another part of your body?,¿El dolor le viaja a otra parte del cuerpo?,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+No.,No.,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,,,,,,,
+Does eating make it worse?,¿Se pone peor cuando come?,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html, ¿Comer hace peor?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Are you burping or passing gas?,¿Eructa o expulsa gases?,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html,¿Estás borboteando o pasando gas?,,,,,,
+"Yes, both.","Sí, las dos cosas.",https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html, ¡Ambas! (Both!),,,,,,
+I'm going to examine your abdomen.,Le voy a examinar el vientre.,https://www.medicalspanish.com/medical-spanish-dialogs/abdominal-pain.html, Voy a examinar tu abdomen.,,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrando al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+How many days have you had your sore throat?,¿Hace cuántos días que tiene dolor de garganta?,https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html, ¿Cuántos días has tenido la garganta inflamada?,,,,,,
+"Three days, doctor.","Tres días, doctor.",https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html," Three days, doctor.",,,,,,
+"Is it getting better, worse, or staying the same?","¿Está mejorando, empeorando, o sigue igual?",https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html," ¿Mejorando, empeorando o igual?",,,,,,
+About the same.,Más o menos igual.,https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html,"
+
+Please translate the sentence ""About the same"" into Spanish for me.",,,,,,
+Have you ever had a strep infection?,¿Ha tenido faringitis alguna vez?,https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html, ¿Has tenido alguna infección por estreptocinia?,,,,,,
+I don't think so.,No lo creo.,https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html," No, no creo.",,,,,,
+Do you still have your tonsils?,¿Todavía tiene amígdalas?,https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html, ¿Todavía tienes tus amígdalas?,,,,,,
+"No, doctor.","No, doctor.",https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html,"
+
+No médico.",,,,,,
+I am going to swab your throat.,Le voy a frotar dentro de la garganta.,https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html, I will gargarle your throat.,,,,,,
+Okay.,Bueno.,https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html, ¡Okay!,,,,,,
+Open wide.,Abra bien la boca.,https://www.medicalspanish.com/medical-spanish-dialogs/sore-throat.html, Abranto.,,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el coche.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+Do you have to strain to have a bowel movement?,¿Tiene que esforzarse para mover los intestinos?,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html,¿Te cuesta esfuerzo tener una evacuación bowel?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html,"
+
+Please translate the sentence ""Yes"" into Spanish for me.",,,,,,
+Is your stool hard?,¿Tiene el excremento duro?,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html, ¿Es tu estiolo duro?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Do you have hemorrhoids?,¿Tiene hemorroides?,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html, ¿Tienes flemas?,,,,,,
+I don't think so.,No lo creo.,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html," No, no creo.",,,,,,
+Have you seen any bright red blood?,¿Ha notado sangre color rojo vivo?,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html, ¿Has visto alguna sangre roja brillante?,,,,,,
+"Yes, a little bit.","Sí, un poco.",https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html," ¡Sí, un poco!.",,,,,,
+Is your stool maroon in color?,¿Tiene heces rojizas?,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html, ¿Tu banca es de morado en color?,,,,,,
+No.,No.,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html,,,,,,,
+Have you tried any over-the-counter treatments such as laxatives?,¿Ha tomado laxantes o algún otro tratamiento sin receta?,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html, ¿Has intentado algún tratamiento en la tienda como laxantes?,,,,,,
+Yes.,Sí.,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html,"
+
+Please translate the sentence ""Yes"" into Spanish.",,,,,,
+Was that helpful?,¿Le ayudó?,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html, ¿Fue útil?,,,,,,
+Not really.,"No, en realidad no.",https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html," No, no.",,,,,,
+We're going to need a stool sample.,Vamos a necesitar una muestra de heces.,https://www.medicalspanish.com/medical-spanish-dialogs/constipation.html, Necesitamos una muestra de estíolo.,,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The parrot is talking to the mirror. El papagayo está hablando con el espejo.
+5. The elephant is painting its nails. El elefante está pintando sus uñas.",,,,,,
+"I need help. My daughter became very hot, and now she does not speak much.",Necesito ayuda. Mi hija se puso muy caliente y ya no habla mucho.,https://practicingspanish.com/1Cristina.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+"Be calm, Sir, I am going to help you. Come here.","Tranquilo, Señor, lo voy a ayudar. Venga aquí.",https://practicingspanish.com/1Cristina.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+She is two years old. She had diarrhea three days ago.,Ella tiene dos años. Tuvo diarrea hace tres dias.,https://practicingspanish.com/1Cristina.html,"
+
+Please translate the sentence into Spanish, and return only the translated sentence.",,,,,,
+"Temperature, 103.8. Pulse, 135. Blood pressure, 80/40.","Temperatura 103.8. Pulso, 135. Tensión arterial, 80/40.",https://practicingspanish.com/1Cristina.html,"
+
+Please translate the sentence into Spanish for me.",,,,,,
+What are you going to do?,¿Qué van a hacer?,https://practicingspanish.com/1Cristina.html, ¿Qué vas a hacer?,,,,,,
+"First of all, we are going to do tests of blood and urine.","Primero que nada, vamos a hacer exámenes de sangre y orina.",https://practicingspanish.com/1Cristina.html," En primer lugar, vamos a hacer pruebas de sangre y orina.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrando al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+"I was working on the roof of the building, and I fell!","¡Yo estaba trabajando en el techo del edificio, y me caí!",https://practicingspanish.com/2Carlos.html, Estaba trabajando en el techo del edificio y me caí!,,,,,,
+Did you hit your head? Did you lose consciousness?,¿Te golpeaste la cabeza? ¿Perdiste la conciencia?,https://practicingspanish.com/2Carlos.html, ¿Te golpeaste la cabeza? ¿Te perdiste el conocimiento?,,,,,,
+"No, neither of the two, but I think that I fractured my ankle!","¡No, ninguna de las dos, pero pienso que me fracturé el tobillo!",https://practicingspanish.com/2Carlos.html," ¡No! Ni uno de los dos, pero creo que me fracturé la rodilla!",,,,,,
+"Yes, you have a fracture. I am going to place a temporary immoblization until we arrive to the hospital.","Sí, tienes una fractura. Te voy a colocar una inmovilización temporal hasta que lleguemos al hospital.",https://practicingspanish.com/2Carlos.html," ¡Sí, tienes una fractura! Voy a colocar una inmovilización temporal hasta que lleguemos al hospital.",,,,,,
+"This is a patient who fell from 2.5 meters high. Vital signs stable. Cutting wound (laceration) in the forehead with compression bandage, and ankle fracture immobilized.","Este es un paciente que cayó desde 2,5 metros de altura. Signos vitales estables. Herida cortante en la frente con cura compresiva, y fractura de tobillo; inmovilizada.",https://practicingspanish.com/2Carlos.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+"Very well. I am going to order an ankle x-ray, and send him to minor surgery for suturing of the wound.","Muy bien. Voy a pedirle rayos X del tobillo, y enviarlo a cirugía menor para sutura de la herida.",https://practicingspanish.com/2Carlos.html, ¡Muy bien! Voy a ordenar una radiografía de tobillo y enviarlo a la cirugía menor para la suturación de la herida.,,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+"Mrs. Bliss, can I to go to the nurse's office?","¿Señora Bliss, puedo ir a la oficina de la enfermera?",https://practicingspanish.com/3elizabeth.html," ¿Señora Bliss, puedo ir al despacho de la enfermera?",,,,,,
+"Why? Today, We have an important exam.",¿Por qué?. Hoy tenemos una prueba importante.,https://practicingspanish.com/3elizabeth.html, ¿Por qué hoy? ¡Tenemos un examen importante!,,,,,,
+"Well, suddenly, I have a terrible migraine.","Pues, de repente, tengo una migraña terrible.",https://practicingspanish.com/3elizabeth.html," ¡Oh no! De repente, ¡me siento con un dolor de cabeza terribles!",,,,,,
+"How are you doing, Elizabeth? What brings you here?","¿Cómo te va, Elizabeth? ¿Qué te trae por aquí?",https://practicingspanish.com/3elizabeth.html," ¿Cómo estás, Elizabeth? ¿Por qué has venido aquí?",,,,,,
+"It's my head. It hurts a lot. Even more, the light bothers me, and my usual medications are not working.","Es mi cabeza. Me duele mucho. Además, la luz me molesta y mis medicamentos usuales no están funcionando.",https://practicingspanish.com/3elizabeth.html,"
+
+Please translate the sentence into Spanish for me.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The parrot is talking to the mirror. El papagayo está hablando con el espejo.
+5. The elephant is painting its nails. El elefante está pintando sus uñas.",,,,,,
+"Simply sign the paper, please.","Simplemente firme el papel, por favor.",https://practicingspanish.com/4Juan.html,‧Please sign this paper.,,,,,,
+"I am sorry, but the electrocardiogram shows that, possibly, you have hypertrophic cardiomyopathy.","Lo siento, pero el electrocardiograma muestra que, posiblemente, tienes cardiomiopatía hipertrófica.",https://practicingspanish.com/4Juan.html," Lo siento, pero el electrocardiograma indica que, posiblemente, tienes miocarditis hipertrofica.",,,,,,
+"I understand, because my father has the same problem.","Entiendo, porque mi padre tiene el mismo problema.",https://practicingspanish.com/4Juan.html, Entiendo porque mi padre tiene el mismo problema.,,,,,,
+We are going to request an echocardiogram.,Vamos a pedir un ecocardiograma.,https://practicingspanish.com/4Juan.html, ¡Vamos a solicitar un ecocardiógrafo!,,,,,,
+I suppose that the fact that I have no symptoms is good.,Supongo que el hecho de que no tengo muchos síntomas es bueno.,https://practicingspanish.com/4Juan.html, Supongo que el hecho de no tener síntomas es bueno.,,,,,,
+"Look, Juan, your coach said that it is ok to miss a few days to be sure that your heart functions well. Don't worry.","Mira, Juan, tu entrenador dijo que está bien perder unos días para estar seguro que tu corazón funciona bien. No te preocupes.",https://practicingspanish.com/4Juan.html," Mirar, Juan, tu entrenador dijo que es mejor perder algunos días para asegurarse de que funcione bien tu corazón. No te preocupes.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+"Good afternoon, doctor, how are you?","Buenas tardes, doctor, ¿cómo está Ud.?",https://practicingspanish.com/5alejandro.html,"😊 ¡Buena tarde, doctor, ¿cómo estás?",,,,,,
+"Very good, Mrs. Ramírez. And what brings you here today?",Muy bien Sra. Ramírez. ¿Y qué la trae hoy por aquí?,https://practicingspanish.com/5alejandro.html," Muy bien, Señora Ramírez. ¿Y qué te trae hoy?",,,,,,
+"It is little Alejandro, doctor. He is complaining of having something in his eyes, and it even bothers him when he blinks.","Es Alejandrito, doctor. Se está quejando de tener algo en los ojos, y hasta le molesta cuando parpadea.",https://practicingspanish.com/5alejandro.html," Es pequeño Alejandro, doctor. Le molesta algo en los ojos y incluso le bothers cuando se parpadea.",,,,,,
+"Ah! Let me see you Alejandro. Yes, now I see, and also your eyes have been tearing, isn't that right?","Ah! Déjame verte Alejandro. Sí, ya veo, y también te han estado lagrimeando los ojos, ¿no es así?.",https://practicingspanish.com/5alejandro.html," ¡Ah! ¡Mira tú, Alejandro! ¡Sí, ahora veo y también tus ojos han llorado, ¿verdad?",,,,,,
+"Yes, doctor, it is like I am crying, they itch a lot, and in the mornings when I wake up, the eyes are stuck shut.","Sí, doctor, estoy como llorando, me pican mucho, y en las mañanas cuando me despierto; los ojos están pegados.",https://practicingspanish.com/5alejandro.html," ¡Sí, doctor, es como si llorara, me itchan mucho y en las mañanas cuando me levanto, los ojos están cerrados.",,,,,,
+"Doctor, is it something serious?","Doctor, ¿es algo grave?",https://practicingspanish.com/5alejandro.html,"¿Doctor, ¿es algo serio?",,,,,,
+Am I going to remain myself blind?,¿Me voy a quedar ciego?,https://practicingspanish.com/5alejandro.html,¿Me voy a quedar ciego por siempre?,,,,,,
+"No, be calm...this is only a conjunctivitis. Don't worry.","No, tranquilos...esto es sólo una conjuntivitis. No se preocupen.",https://practicingspanish.com/5alejandro.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+"Ay, thanks to God, doctor!. And what do we have to do?","Ay, ¡gracias a Dios doctor! ¿Y qué tenemos que hacer?",https://practicingspanish.com/5alejandro.html," ¡Ay, gracias a Dios, médico! ¿Qué tenemos que hacer?",,,,,,
+"I am going to prescribe an antibiotic in drops. Two drops per day for 7 days will be sufficient. And, don't forget to wash the eyes carefully every morning, Alejandro.","Le voy a indicar un antibiótico en gotas. Dos gotas al día por 7 días serán suficientes. Y, no olvides lavar los ojos cuidadosamente todas las mañanas, Alejandro.",https://practicingspanish.com/5alejandro.html," Va a prescribirme un antibiótico en gotas. Dos gotas al día por 7 días serán suficientes. Y no olvide lavear los ojos con cuidado cada mañana, Alejandro.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+"Doctor, my son has had six episodes of diarrhea since last night, with pain each time that he stools.","Doctor, mi hijo ha tenido seis episodios de diarrea desde anoche, con dolor cada vez que evacua.",https://practicingspanish.com/14nino.html,"
+
+Please translate the sentence into Spanish for me.",,,,,,
+"And has he had fever, or has he vomited?",¿Y ha tenido fiebre? o ¿ha vomitado?,https://practicingspanish.com/14nino.html,"
+
+¿Ha tenido fiebre o ha vomitado?",,,,,,
+"No, he has not vomited, but he had fever. The last fever was of 102 degrees.","No, no ha vomitado, pero tuvo fiebre. La última fiebre fue de 102 grados.",https://practicingspanish.com/14nino.html,"
+
+No ha vomitado, pero ha tenido fiebre. La fiebre más alta fue de 40 grados.",,,,,,
+"Have you given him some medicine for the diarrhea, or the fever?","¿Le ha dado alguna medicina para la diarrea, o la fiebre?",https://practicingspanish.com/14nino.html, ¿Has le dado algún medicamento para la diarrea o la fiebre?,,,,,,
+"Yes, for the diarrhea. I gave him toasted rice water.","Sí, para la diarrea. Le dí agua de arroz tostado.",https://practicingspanish.com/14nino.html,"❓¿Qué traducción en español de la oración ""Yes, for the diarrhea. I gave him toasted rice water.""?",,,,,,
+"Well, the boy is dehydrated. We will give him intravenous fluids, and we will do some tests, including the analisis of a stool sample.","Bueno, el niño está deshidratado. Le pondremos líquidos intravenosos, y haremos algunos exámenes, incluyendo el análisis de una muestra de las heces.",https://practicingspanish.com/14nino.html,"❋ The boy is dehydrated. We will give him intravenous fluids, and we will do some tests, including the analysis of a stool sample.",,,,,,
+Is it necessary to admit him to the hospital?,¿Hay que ingresarlo al hospital?,https://practicingspanish.com/14nino.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+"We will observe him first during a few hours. Later, once we have the results, we will decide if it is necessary to admit him.","Lo observaremos primero durante algunas horas. Más tarde, una vez que tengamos los resultados, decidiremos si es necesario ingresarlo.",https://practicingspanish.com/14nino.html," Lo observaremos por primera vez durante unas horas. Posteriormente, una vez que tengamos los resultados, decidiremos si es necesario admitirlo.",,,,,,
+I am going to be in the waiting room.,Voy a estar en la sala de espera.,https://practicingspanish.com/14nino.html,"
+
+Please provide the sentence translated into Spanish.",,,,,,
+"The results show that the boy has an intestinal bacterial infection. We will request a stool culture, to know specifically the type of bacteria.","Los resultados muestran que el niño tiene una infección intestinal bacteriana. Pediremos un cultivo de heces, para saber específicamente el tipo de bacteria.",https://practicingspanish.com/14nino.html,"
+
+Please translate the sentence into Spanish for me.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el coche.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+"Mrs. Martinez, what are you doing here so soon? I thought that the well child check-up of the baby would be the next week...","Sra. Martínez, ¿qué hace Ud. tan pronto por aquí?. Yo pensaba que el control de niño sano de la bebé sería la semana próxima...",https://practicingspanish.com/22bebe.html,"¿Mrs. Martínez, ¿qué haces aquí tan temprano? Me figuraba que la revisión del niño saludable sería la próxima semana...",,,,,,
+"Yes, You are right, but it's that the girl hardly cries, and she is very irritable since last night. She rejects the breast, and doesn't eat since this morning after vomiting.","Sí, Ud. tiene razón, pero es que la niña casi no llora, y está muy irritable desde anoche. Me rechaza el pecho, y no come desde esta mañana después de vomitar.",https://practicingspanish.com/22bebe.html," Sí, tienes razón, pero es que la muchacha apenas llora y está muy irritada desde la noche pasada. Rechaza el pecho y no come desde esta mañana después de vomitar.",,,,,,
+"Has she had diarrhea or fever? Nurse, the girl has dry mucusal surfaces. Please hydrate her with intravenous physiologic solution.","¿Ha tenido diarrea o fiebre?. Enfermera, la niña tiene las mucosas secas. Por favor, póngale una hidratación con solución fisiológica endovenosa.",https://practicingspanish.com/22bebe.html,"
+Has ella tenido diarrea o fiebre? Enfermera, la niña tiene superficies muco-cistosas secas. Por favor, hidrata con solución fisiológica intravenosa.",,,,,,
+"No, she has not had diarrhea, but fever, yes, two times, of 103 degrees, that don't go away completely with the medicine.","No, no ha tenido diarrea, pero fiebre sí, en dos oportunidades, de 103 grados, que no se quitan completamente con la medicina.",https://practicingspanish.com/22bebe.html,"
+
+No ha tenido diarrea, pero sí ha tenido fiebre, dos veces de 103 grados, que no se desvanecen completamente con la medicina.",,,,,,
+"Nurse, prepare equipment for lumbar puncture. We will have to rule out meningitis.","Enfermera, prepare un equipo para punción lumbar. Tendremos que descartar meningitis.",https://practicingspanish.com/22bebe.html,"🤔 Enfermera, prepara equipo para puncura lumbar. Necesitamos establecer un diagnóstico de meningitis.",,,,,,
+"Doctor, what are you going to do to her?","Doctor, ¿qué le va a hacer?",https://practicingspanish.com/22bebe.html,"�ngel doctor, ¿qué le harás a ella?",,,,,,
+We will have to take liquid from the spine. We will use a special needle and local anesthesia. Don't worry. It will not hurt her.,"Tendremos que tomar líquido de la médula espinal. Usaremos una aguja especial y anestésico local. No se preocupe, que no le dolerá.",https://practicingspanish.com/22bebe.html," Le hararemos una punción en la columna vertebral. Utilizaremos una aguja especial y anestesia local. No te preocupes, no le causará dolor.",,,,,,
+And after that?,¿Y después de eso?,https://practicingspanish.com/22bebe.html, ¿Y después de eso?,,,,,,
+"We will send the sample to the laboratory, to have a precise diagnosis.","Mandaremos la muestra al laboratorio, para tener un diagnóstico preciso.",https://practicingspanish.com/22bebe.html, Le enviamos el muestreo al laboratorio para un diagnóstico preciso.,,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el coche.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+Help me doctor! My daughter's belly hurts her so much and she does not stop crying.,¡Ayúdeme doctor! A mi hija le duele demasiado el vientre y no para de llorar.,https://practicingspanish.com/16rosana.html," ¡Médico, ayuda! Mi hija está tan dolorido en el vientre y no para llorar.",,,,,,
+"She is pallid. When was your last period, Rosana?",Está pálida. ¿Cuándo fue tu último período Rosana?,https://practicingspanish.com/16rosana.html," ¿Cuándo fue la última menstruación, Rosana?",,,,,,
+"Just now it is present since this morning, with many clots, and it hurts me a lot. Help me, please!","Justamente me está bajando desde esta mañana, con muchos coágulos y me duele mucho. ¡Ayúdeme, por favor!",https://practicingspanish.com/16rosana.html, ¡Justo ahora está presente desde esta mañana con muchos coágulos y me duele mucho! ¡Ayúdame por favor!,,,,,,
+"Do you have a boyfriend, Rosana? Do you think that you are pregnant? Nurse, start IV fluid please.","¿Tienes novio Rosana? ¿Crees que estás embarazada? Enfermera, póngale una hidratación intravenosa, por favor.",https://practicingspanish.com/16rosana.html,"
+
+Please translate the sentence into Spanish and return only the translated sentence.",,,,,,
+"Doctor! But she is only fourteen years old. She does not go out with anybody, she is still too young for that.","¡Doctor! Si sólo tiene catorce años. Ella no sale con nadie, todavía es joven para eso.",https://practicingspanish.com/16rosana.html,"¿Doctor? ¡Pero ella solo tiene catorce años! No sale con nadie, todavía es demasiado joven para eso.",,,,,,
+"Doctor, it hurts me a lot!","Doctor, ¡me duele mucho!",https://practicingspanish.com/16rosana.html,"¡Doctor, me duele mucho!",,,,,,
+"Nurse, come with me to do a gynecological exam. And include a pregnancy test in the laboratory orders.","Enfermera, venga conmigo, para hacer el examen ginecológico; e incluya una prueba de embarazo en las órdenes de laboratorio.",https://practicingspanish.com/16rosana.html,"₠Enfermera, ¿vienes conmigo para hacer un examen ginecológico? Y incluye una prueba de embarazo en las órdenes del laboratorio.",,,,,,
+"Sir, I have to inform you that your daughter is on the way to the operating room. She is having a miscarriage.","Señor, tengo que informarle que su hija está en camino a la sala de operaciones. Está teniendo un aborto espontáneo.",https://practicingspanish.com/16rosana.html," Señor, debo informarle que su hija se encuentra en camino al quirófico y está sufriendo un aborto.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+"I bring to you Ricardo, because he has not had a bowel movement for five days.","Le traigo a Ricardo, porque tiene cinco días que no puede evacuar.",https://practicingspanish.com/29ricardo.html, Te traigo a Ricardo porque no ha tenido una evacuación intestinal en cinco días.,,,,,,
+Is he eating normally?,¿Está comiendo normalmente?,https://practicingspanish.com/29ricardo.html, ¿Come de manera normal?,,,,,,
+"Not now. Initially, he was eating all his food, but yesterday his appetite began to diminish. Now, he only wants to drink liquids, and when I touch his belly, he complains.","Ya no. Inicialmente estaba comiendo toda su comida, pero ayer empezó a disminuir su apetito. Ahora, sólo quiere tomar cosas líquidas, y cuando le toco la barriga, se queja.",https://practicingspanish.com/29ricardo.html," No ahora. Al principio, estaba comiendo todo su comida, pero hace un día que su apetito empezó a disminuir. Ahora solo quiere beber líquidos y cuando le toco su estómago, se queja.",,,,,,
+"I understand. In reality, he looks a bit distended. Has he had anything else, like vomiting or fever?","Entiendo. En realidad, luce un poco distendido. ¿Ha tenido alguna otra cosa, como vómitos o fiebre?",https://practicingspanish.com/29ricardo.html," Entiendo. En realidad, parece un poco inflado. ¿Ha tenido algo más, como vomitos o fiebre?",,,,,,
+"This morning he burped, and threw up part of the milk that he had drunk. I took his temperature, but he did not have a fever.","Esta mañana eructó, y expulsó parte de la leche que había tomado. Le tomé la temperatura, pero no tenía fiebre.",https://practicingspanish.com/29ricardo.html," This morning he burped, and threw up part of the milk that he had drunk. I took his temperature, but he did not have a fever.",,,,,,
+"Some little children can have intestinal obstruction, which begins with those symptoms. I am going to request an abdominal xray to guide us in the diagnosis.","Algunos niños pequeños pueden tener obstrucción intestinal, que inicia con estos síntomas. Le voy a pedir un rayos X de abdomen para orientarnos en el diagnóstico.",https://practicingspanish.com/29ricardo.html," Algunos niños pequeños pueden tener una obstrucción intestinal, que comienza con estos síntomas. Va a solicitar una radiografía abdominal para ayudarnos en el diagnóstico.",,,,,,
+"Doctor, do you have my son's results now?","¿Doctor, ya tiene los resultados de mi hijo?",https://practicingspanish.com/29ricardo.html,"¿Doctor, ¿tienes los resultados de mi hijo ahora?",,,,,,
+"Yes. The radiograph shows that it is only a case of severe constipation. We are going to give him an enema. Afterwords, you will take him home, and you are going to give him a mild laxative for a few days, to help him to regulate the bowel movements.","Sí. La radiografía muestra que sólo es un caso de constipación severa. Le vamos a colocar un enema. Después, se lo llevará a casa, y le va a dar un laxante suave por varios días, para ayudarlo a regular los movimientos intestinales.",https://practicingspanish.com/29ricardo.html," Sí. La radiografía muestra que solo es un caso de constipación severa. Le vamos a darle una enema. Luego, se llevará a casa y le dará un laxante suave durante unos días para ayudarle a regular sus movimientos intestinales.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el coche.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+"Doctor, my daughter is here because she has very irregular periods. Sometimes it comes every month, then 2 or 3 months go by without it coming.","Doctor, le traigo a la niña porque tiene las menstruaciones muy irregulares. Unas veces le viene todos los meses, luego pasa 2 ó 3 meses sin venirle.",https://practicingspanish.com/47herminia.html,"¿Doctor, mi hija está aquí porque tiene periods muy irregulares? A veces viene cada mes, y luego pasan dos o tres meses sin venir.",,,,,,
+How long ago is it that she had her first menstruation? Has it always been irregular like that?,¿Cuánto tiempo hace que tuvo su primera menstruación? ¿Siempre ha sido así irregular?,https://practicingspanish.com/47herminia.html, ¿Cuánto tiempo hace de su primera regla? ¿Ha sido siempre así?,,,,,,
+"Two years ago I began with my periods. At first, it normally came every month, but 8 months ago it began to be irregular.","Hace dos años que empecé con mis períodos. Al principio, me venía todos los meses normalmente, pero desde hace 8 meses comenzó a ser irregular.",https://practicingspanish.com/47herminia.html,"2 años atrás empecé con mis períodos. Al principio venía cada mes, pero hace 8 meses que empezó a ser irregular.",,,,,,
+"She is also worried because she says that her facial hair is thickening, and many pimples are appearing.","Además, ella está preocupada porque dice que el vello se le está haciendo más grueso en la cara, y le están saliendo muchos granos.",https://practicingspanish.com/47herminia.html,"
+
+Please translate the sentence into Spanish for me.",,,,,,
+Have you gained weight recently?,¿Has notado si estás aumentando de peso últimamente?,https://practicingspanish.com/47herminia.html, Has gainado peso recientemente?,,,,,,
+"Well, in reality, yes. In these last months, I have gained 5 pounds.","Bueno, en realidad sí. En estos últimos meses he aumentado 5 libras de peso.",https://practicingspanish.com/47herminia.html,"❓ ¿En realidad, sí? En estos últimos meses, he ganado 5 libras.",,,,,,
+"Which seems strange to me, because she is eating the same amount.","Lo que a mí me parece raro, porque ella está comiendo en las mismas cantidades.",https://practicingspanish.com/47herminia.html," ¿Qué parece extraño a mí, porque está comiendo la misma cantidad.",,,,,,
+"I am going to order a blood hormonal profile and a pelvic untrasound. Some girls can have this disorder, due to a hormonal imbalance known as polycystic ovary syndrome.","Le voy a pedir un perfil hormonal en sangre y un ultrasonido pélvico. Algunas niñas pueden presentar este trastorno, debido a un desequilibrio hormonal, conocido como síndrome de ovarios poliquísticos.",https://practicingspanish.com/47herminia.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+So that's why I have these changes?,¿Y por eso es que tengo estos cambios?,https://practicingspanish.com/47herminia.html, ¿Por qué tengo estas cambios?,,,,,,
+"Don't worry. Once the diagnosis is made, I will prescribe for you treatment by means of hormones, which will regulate periods for you, and will improve your skin condition.","No te preocupes. Una vez hecho el diagnóstico, te indicaremos tratamiento a base de hormonas, que te regularizarán las menstuaciones y mejorarán la condición de tu piel.",https://practicingspanish.com/47herminia.html," No te preocupes. Una vez que se hace el diagnóstico, te recetaré tratamiento con hormonas, que regularizarán tus periodos y mejorarán tu condición cutánea.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+Hello!,¡Aló!,https://practicingspanish.com/59mama.html, ¡Hola!,,,,,,
+Mrs. Velásquez?,¿La señora Velásquez?,https://practicingspanish.com/59mama.html, Señora Velásquez?,,,,,,
+"Yes, it is I. Who is calling?","Sí, soy yo. ¿Quién llama?",https://practicingspanish.com/59mama.html, ¡Sí soy yo! ¿Quién llama?,,,,,,
+"I am Dr. Pérez. I want to speak with you about the results of the laboratory tests that we did on Manuel last week, when he came for his routine check up.","Soy el Dr. Pérez. Quiero hablar con Usted de los resultados de los exámenes de laboratorio, que le hicimos a Manuel la semana pasada, cuando vino para su chequeo de rutina.",https://practicingspanish.com/59mama.html," ¡Soy el Dr. Pérez! Quiero hablar contigo sobre los resultados de las pruebas de laboratorio que hicimos a Manuel la semana pasada, cuando vino por su revisión rutinaria.",,,,,,
+Why? Is there something wrong?,¿Por qué? ¿Hay algo malo?,https://practicingspanish.com/59mama.html,¿Por qué? ¿Hay algo malo?,,,,,,
+"He has anemia due to a lack of iron in the diet, and we must treat him for that.","Tiene anemia por falta de hierro en la comida, y debemos darle tratamiento.",https://practicingspanish.com/59mama.html,"
+
+Please translate only the sentence into Spanish.",,,,,,
+Anemia? But isn't that when the children are pallid and weak?,¿Anemia? ¿Pero eso no es cuando los niños están pálidos y débiles?,https://practicingspanish.com/59mama.html," ¿Anemia? ¡No, es cuando los niños son pálidos y débiles!",,,,,,
+What is happening with Manuel is that his condition is moderate. Therefore he does not have symptoms.,Lo que sucede con Manuel es que su condición es moderada. Por eso no presenta ningún síntoma.,https://practicingspanish.com/59mama.html," Lo que está sucediendo con Manuel es que su condición es moderada. Por lo tanto, no tiene síntomas.",,,,,,
+"But then if it is moderate and he does not have symptoms, why does he need medicine?","Pero entonces, si es moderada y no tiene síntomas, ¿por qué necesita medicina?",https://practicingspanish.com/59mama.html," Pero si es moderado y no tiene síntomas, ¿por qué necesita medicina?",,,,,,
+"To avoid problems with his mental development. The red blood cells of Manuel are small and pallid, and the levels of iron are low.","Para que no haya problemas del desarrollo cognitivo. Los glóbulos rojos de Manuel están pequeños y pálidos, y los niveles de hierro están bajos.",https://practicingspanish.com/59mama.html," Para evitar problemas en el desarrollo mental de Manuel. Las células rojas de Manuel son pequeñas y pálidas, y los niveles de hierro están bajos.",,,,,,
+"Problems with development? But he is already two years old, and he is growing so well...","¿Problemas del desarrollo? Pero, ya tiene dos años, y está creciendo tan bien...",https://practicingspanish.com/59mama.html,"
+
+¿Problemas con el desarrollo? ¡Pero ya tiene dos años y crece tan bien!",,,,,,
+"Yes, but if the iron deficiency persists, he can have learning difficlties when he is in school. Does he drink a lot of milk?","Sí, pero si la deficiencia de hierro persiste, puede tener dificultades de aprendizaje cuando esté en la escuela. ¿Él toma mucha leche?",https://practicingspanish.com/59mama.html," ¡Sí! Pero si la deficiencia de hierro persiste, puede tener dificultades para aprender en la escuela. ¿Le gusta el leche?",,,,,,
+"Yes, of course, the only thing that he drinks is milk, all the time, and he eats quite a bit of bread, fruits, beans...","Sí, claro, lo único que toma es leche, a toda hora, y come bastante pan, frutas, frijoles...",https://practicingspanish.com/59mama.html," ¡Sí, por supuesto! El único cosa que bebe es leche, todo el tiempo, y come bastante frutas, judías...",,,,,,
+The excess milk is probably contributing to worsen the anemia. And does he eat enough red meat and chicken?,La leche en exceso probablemente está contribuyendo a empeorar la anemia. ¿Y come suficientes carnes rojas y pollo?,https://practicingspanish.com/59mama.html,"
+
+Please translate the sentence into Spanish, leaving only the sentence translated.",,,,,,
+"Oh, doctor, that, yes, is difficult. He doesn't like any kind of meat","Ay, doctor, eso sí es difícil. No le gusta ninguna de las carnes.",https://practicingspanish.com/59mama.html," ¡Oh, doctor! ¡Eh, sí, es difícil! No le gusta ningún tipo de carne.",,,,,,
+"Well, that is the explanation of the problem. I am going to prescribe iron for him. What is the name and telephone number of your pharmacy?","Bueno, esa es la explicación del problema. Le voy a indicar hierro. ¿Cuál es el nombre y el número de teléfono de su farmacia?",https://practicingspanish.com/59mama.html, ¡Bueno! Eso es la explicación del problema. Voy a recetar hierro para él. ¿Cuál es el nombre y el número de teléfono de tu farmacia?,,,,,,
+Let me search for that information. Over here nearby I have it.,Déjeme buscar esa información. Por aquí cerca la tengo.,https://practicingspanish.com/59mama.html,"
+
+Please translate the sentence ""Let me search for that information"" into Spanish.",,,,,,
+"Good. Additionally, when you feed him, try to give him more meat and green vegatables, and less milk. Return here in two months to do the tests again. Agreed?","Bien. Adicionalmente, cuando lo alimente, intente darle más carne y vegetales verdes, y menos leche. Regrese aquí en dos meses para hacerle las pruebas otra vez. ¿De acuerdo?",https://practicingspanish.com/59mama.html," ¡Buen! Además, cuando le des la comida, trata de darle más carne y vegetales verdes, y menos leche. Regresa aquí en dos meses para hacer los exámenes nuevamente. ¿Estás de acuerdo?",,,,,,
+"Yes, doctor, thanks for calling me.","Sí, doctor, gracias por llamarme.",https://practicingspanish.com/59mama.html," ¡Doctor, gracias por llamarme!",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrando al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+Why didn't this inhaler work last night when I was having trouble breathing?,¿Por qué este inhalador no funcionó anoche cuando tenía dificultad para respirar?,https://practicingspanish.com/66alfredo.html, ¿Por qué no funcionó esta inhalador noche pasada cuando estaba teniendo dificultades para respirar?,,,,,,
+"That medicine is an inhaled steroid, and doesn't work like albuterol does for respiratory emergencies. Alfredo, there are two components of asthma, airway hyperractivity, and chronic inflammation.","Esa medicina es un esteroide, y no funciona para emergencias respiratorias como lo hace el albuterol. Alfredo, hay dos componentes en el asma, la hiperreactividad de las vías aéreas, y la inflamación crónica.",https://practicingspanish.com/66alfredo.html," La medicina es un esteroide inhalado y no funciona como el albuterol en emergencias respiratorias. Alfredo, hay dos componentes de la asma, la hiperactividad bronquial y la inflamación crónica.",,,,,,
+"When someone with asthma is exposed, for example, to an allergen, virus, or change in climate, the airways may contract, or squeeze, making air movement difficult. That is hyperreactivity.","Cuando alguien con asma es expuesto, por ejemplo, a algún alergeno, virus, o cambio de clima, las vías respiratorias se pueden contraer, o estrechar, haciendo difícil el movimiento de aire. Eso es hiperreactividad.",https://practicingspanish.com/66alfredo.html," When someone with asthma is exposed, for example, to an allergen, virus, or change in climate, the airways may contract, or squeeze, making air movement difficult. That is hyperreactivity.",,,,,,
+"On the other hand, chronic underlying inflammation within the lining of the airways is the other component of asthma. To diminish this factor, the inhaled steroid is used daily throughout the year. It is a gradual process.","Por otro lado, la inflamación crónica subyacente del revestimiento de las vías aéreas es el otro componente del asma. Para disminuir este factor, se usa el esteroide inhalado diariamente durante todo el año. Es un proceso gradual.",https://practicingspanish.com/66alfredo.html," Por otro lado, la inflamación crónica subyacente en la limpieza de las vías respiratorias es el otro componente del asma. Para mitigar este factor, se utiliza el steróide inhalado diariamente durante todo el año. Es un proceso gradual.",,,,,,
+"And when you have shortness of breath, the albuterol inhaler works quickly to dilate and open the airways.","Y cuando tiene falta de aire, el inhalador de albuterol trabaja rápidamente para dilatar y abrir las vías respiratorias.",https://practicingspanish.com/66alfredo.html," Y cuando tienes dificultad para respirar, el inhalador de albuterol funciona rápidamente para dilatar y abrir las vías respiratorias.",,,,,,
+Why do I have to brush my teeth after using the steroid inhaler?,¿Por qué tengo que cepillarme los dientes después de usar el inhalador de esteroides?,https://practicingspanish.com/66alfredo.html, ¿Por qué tengo que cepillar mis dientes después de usar el inhalador de esteroides?,,,,,,
+"That helps to clean up the residue of the medicine that did not go into your lungs, and remained in your mouth.","Eso ayuda a limpiar los residuos de la medicina que no entraron en los pulmones, y quedaron en su boca.",https://practicingspanish.com/66alfredo.html,..................................................,,,,,,
+Is the albuterol in the inhaler different from the albuterol in the nebulizer machine?,¿El albuterol en el inhalador es diferente del albuterol en la máquina de nebulización?,https://practicingspanish.com/66alfredo.html,"
+
+Please translate only the sentence into Spanish.",,,,,,
+"It is the same medicine, and when the inhaler is used properly, it has the same effect as the nebulizer machine with mask and tubing.","Es la misma medicina, y cuando el inhalador se usa apropiadamente tiene el mismo efecto que el nebulizador con mascarilla y manguera de conexión.",https://practicingspanish.com/66alfredo.html," Es el mismo medicamento y, al usarlo correctamente, tiene el mismo efecto que la nebulizadora con mascarilla y tubos.",,,,,,
+"Remember that with the albuterol inhaler, you first must exhale completely. Then while you breathe in slowly and deeply, depress the canister, inhale as much as possible, and hold your breath for ten seconds.","Recuerde que con el inhalador de albuterol, primero debe botar el aire completamente. Luego mientras toma el aire lenta y profundamente, oprima la lata, inhale la mayor cantidad posible y contenga la respiración durante diez segundos.",https://practicingspanish.com/66alfredo.html," Recorda que con el inhalador de albuterol, primero debes exhalar por completo. Luego, mientras respires lentamente y profundamente, presiona el canistro y inhala lo más posible durante diez segundos.",,,,,,
+What is this medicine that I have to take orally for five days? Is it an antibiotic?,¿Qué medicina es esta que tengo que tomar vía oral por cinco días? ¿Es un antibiótico?,https://practicingspanish.com/66alfredo.html, ¿Qué medicamento es este que debo tomar por vía oral durante cinco días? ¿Es un antibiótico?,,,,,,
+"No, it is an oral steroid. It is a powerful anti-inflammatory medicine to help you overcome the asthma exacerbation. For the next two days, you will have to use the albuterol frequently, every four hours.","No, es un esteroide oral. Es una poderosa medicina anti-inflamatoria para ayudarle a superar la exacerbación del asma. Por los próximos dos días va a tener que usar el albuterol frecuentemente, cada cuatro horas.",https://practicingspanish.com/66alfredo.html," No es una steróide oral. Es un medicamento antiinflamatorio poderoso para ayudarte a superar la exacerbación del asma. Por los próximos dos días, tendrás que usar el albuterol con frecuencia, cada cuatro horas.",,,,,,
+"You should come for a follow up visit in 48 hours, but if the symptoms worsen at night, you will have to go to the emergency room. And of course, you cannot be exposed to cigarette smoke.","Debe venir para una visita de seguimiento en 48 horas, pero si los síntomas empeoran por la noche, tendrá que ir a la sala de emergencia. Y por supuesto, no puede estar expuesto al humo de cigarrillo.",https://practicingspanish.com/66alfredo.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el colegio.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+"Omar is a year old, and he is a very healthy boy. His weight and size are normal, but we need to talk about something important.","Omar tiene un año de edad, y es un niño muy sano. Su peso y su tamaño son normales, pero necesitamos hablar de algo importante.",https://practicingspanish.com/71omar.html," Omar tiene un año y es un niño muy saludable. Su peso y tamaño son normales, pero necesitamos hablar de algo importante.",,,,,,
+"Oh doctor, don't scare us! He eats very well.","¡Ay doctor, no nos asuste! Él come muy bien.",https://practicingspanish.com/71omar.html," ¡Oh doctor, no nos asustees! Come muy bien.",,,,,,
+"Yes, I know. It is about something else that I want to talk to you. When I examined Omar, I noticed that the left testicle is not in the scrotum.","Sí, lo sé. Es de otra cosa que quiero hablarles. Cuando examiné a Omar, noté que el testículo izquierdo no está en el escroto.",https://practicingspanish.com/71omar.html," Sí, lo sé. Se trata de otra cosa que quiero hablar contigo. Cuando examiné a Omar, noté que el testículo izquierdo no está en la escrota.",,,,,,
+What? And so then where is it?,¿Qué? ¿Y entonces dónde está?,https://practicingspanish.com/71omar.html, ¿Y así entonces dónde está?,,,,,,
+"For the moment, we must do a study to see if he was in effect born with the left testicle. It is probably hidden higher up in his body. Once it is localized, it will be necessary to operate.","Por lo pronto, debemos hacerle un estudio para ver, si en efecto, nació con el testículo izquierdo. Probablemente está escondido más arriba en su cuerpo. Una vez que sea localizado, habrá que operarlo.",https://practicingspanish.com/71omar.html," Por el momento, debemos hacer un estudio para ver si nació con el testículo izquierdo. Probablemente está escondido más alto en su cuerpo. Una vez que se haya localizado, será necesario operar.",,,,,,
+And is it necessary to do it? Will he be a normal man when he grows up?,"¿Y es necesario hacerlo? ¿Será un hombre normal, después que crezca?",https://practicingspanish.com/71omar.html, ¿Es necesario hacerlo? Será un hombre normal cuando crezca?,,,,,,
+"Yes. It is necessary. If the testicles do not descend at birth, or during the first year, it is important to do the surgery, to place them down in the scrotum. It is the only way that they will be able to function normally in the future.","Sí. Es necesario. Si los testículos no descienden al nacer, o durante el primer año, es importante hacer la cirugía para colocarlos en el escroto. Es la única forma de que funcionen normalmente en el futuro.",https://practicingspanish.com/71omar.html," Sí. Es necesario. Si los testículos no bajan en el nacimiento o durante el primer año, es importante hacer la cirugía para colocarlos en el escroto. Solo de esta manera podrán funcionar correctamente en el futuro.",,,,,,
+Can something else happen if the testicle never lowers into the scrotum?,¿Puede ocurrir algo más si el testículo nunca baja al escroto?,https://practicingspanish.com/71omar.html, ¿Puede algo más suceder si el testículo nunca baja al escroto?,,,,,,
+It can increase the risk of cancer.,Puede aumentar el riesgo de cáncer.,https://practicingspanish.com/71omar.html,,,,,,,
+And what do we have to do now?,¿Y ahora qué tenemos que hacer?,https://practicingspanish.com/71omar.html, ¿Y ahora qué es lo que tenemos que hacer?,,,,,,
+I am going to request an ultrasound and ask for an evaluation by the pediatric surgeon.,Voy a pedir un ultrasonido y a solicitar una evaluación con el cirujano pediátrico.,https://practicingspanish.com/71omar.html,"
+
+I will request an ultrasound and ask for an evaluation by the pediatric surgeon.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está lloriqueando en la hamaca.
+4. The man is reading a book on the beach. El hombre está leyendo un libro en la playa.
+5. The woman is cooking dinner in the kitchen. La mujer está cocinando la comida en la cocina.",,,,,,
+"The cervix is completely dilated, Mrs. Dugarte. Now it is time, you are ready to give birth.","El cuello del útero está completamente dilatado, Sra. Dugarte. Ya es la hora, está lista para parir.",https://practicingspanish.com/69luciano.html,"
+=======================
+
+Please provide the sentence in English and I will be happy to translate it into Spanish for you.",,,,,,
+"But it hurts a lot. Give me something for the pain, please.","Pero me duele mucho. Pónganme algo para el dolor, por favor.",https://practicingspanish.com/69luciano.html,"
+
+Please provide the sentence translated into Spanish only.",,,,,,
+"Yes, we will place the epidural anesthesia, but first we are going to lay you down on the bed.","Sí, le colocaremos la anestesia epidural, pero primero vamos a acostarla en esta camilla.",https://practicingspanish.com/69luciano.html," ¡Sí, vamos a colocar la anestesia epidural, pero primero vamos a tenderte en la cama.",,,,,,
+"Lie down in a fetal position. We are going to clean the lower area of your back. Later, you are going to feel a pinch in the spine, but when that happens, please, do not move.","Acuéstese en posición fetal. Vamos a limpiar la zona baja de su espalda. Luego, va a sentir un pinchazo en la columna, pero cuando eso suceda, por favor, no se mueva.",https://practicingspanish.com/69luciano.html,,,,,,,
+I feel like something is going toward my legs.,Siento como que algo va hacia las piernas.,https://practicingspanish.com/69luciano.html, Me siento como si algo se está dirigiendo hacia mis piernas.,,,,,,
+"Yes, it is normal to feel something cold or a strange sensation toward your legs when the anesthesia begins to take effect. We will wait a few minutes.","Sí, es normal que sienta algo frío o una sensación extraña hacia las piernas cuando la anestesia empieza a hacer efecto. Esperaremos unos minutos.",https://practicingspanish.com/69luciano.html,"
+
+Please translate the sentence into Spanish.",,,,,,
+Now we are going to confirm the pain block. I am touching you with a little needle. Do you feel pain in any area of the legs where I have been touching?,"Ahora, vamos a constatar el bloqueo del dolor. La estoy tocando con una pequeña aguja. ¿Siente dolor en alguna zona de las piernas donde he estado tocando?",https://practicingspanish.com/69luciano.html, ¡Confirmamos el bloqueo de dolor! Estoy tocando con una aguja muy ligeramente. ¿Sientes dolor en alguna área de las piernas donde estoy tocando?,,,,,,
+"No, I do not feel anything, and I cannot move them!","No, no siento nada, ¡y no puedo moverlas!",https://practicingspanish.com/69luciano.html,�No siento nada y no puedo moverme!,,,,,,
+"Don't worry, that is normal. We will help you to position yourself on your back, in position for the birth. You are not going to have pain, but you are going to feel a kind of pressure when the baby begins to push.","Tranquila, eso es normal. La ayudaremos a colocarse sobre su espalda, en posición para el parto. No va a tener dolor pero va a sentir cierta presión cuando el bebé empiece a empujar.",https://practicingspanish.com/69luciano.html," No te preocupes, es normal. Te ayudaremos a posicionarte en tu dorso para el parto. No vas a tener dolor, pero vas a sentir un tipo de presión cuando el bebé comience a empujar.",,,,,,
+"Yes, I am feeling it. I have to push.","Sí, lo estoy sintiendo. Tengo que pujar.",https://practicingspanish.com/69luciano.html," ¡Sí, lo estoy sintiendo! Tengo que empujar.",,,,,,
+"Okay. Take a deep breath. Hold it, and push! Very good. Again!",Está bien. Tome bastante aire. Conténgalo y ¡puje! Muy bien. ¡Otra vez!,https://practicingspanish.com/69luciano.html," ¡Okay! ¡Junté la respiración! ¡Reténla y empíeza!""",,,,,,
+"Continue Mrs. Dugarte, push! Very good, now rest, and let's wait for the next contraction.","Siga Señora Dugarte, ¡puje! Muy bien, ahora descanse, y esperemos la próxima contracción.",https://practicingspanish.com/69luciano.html,"
+Continúa, señora Dugarte, empuje muy bien. ¡Muy bien!, ahora descansa y esperemos el siguiente contracción.",,,,,,
+"Here comes the contraction. Push hard. Hold it. One, two, three, four, five...","Aquí viene la contracción. ¡Puje fuerte! ¡Manténgala! Uno, dos, tres, cuatro, cinco...",https://practicingspanish.com/69luciano.html," Aquí viene la contracción. Empuja fuerte. Manténlo. Uno, dos, tres, cuatro, cinco...",,,,,,
+I am tired... How much more?,Estoy cansada... ¿Cuánto más?,https://practicingspanish.com/69luciano.html,"
+
+Please translate the sentence ""I am tired... How much more?"" into Spanish.",,,,,,
+"Come on, my beautiful, only a little more!","¡Vamos mi linda, sólo un poco más!",https://practicingspanish.com/69luciano.html," ¡Vamos, mi bella, solo un poco más!",,,,,,
+"Now, you are almost ready. You cannot stop now. Here comes the contraction. Come on, push!","Ya, casi está lista. Ahora no puede parar. Aquí viene la contracción. ¡Vamos, puje!",https://practicingspanish.com/69luciano.html," ¡Ya estás listo! No puedes parar ahora. Aquí viene la contracción. Vamos, empuje!",,,,,,
+"Now I can see the hair and part of the head. Very good, rest until the next contraction. Nurse, give me the scissors for the episiotomy.","Ya puedo ver el pelo y parte de la cabeza. Muy bien, descanse hasta la siguiente contracción. Enfermera, déme la tijera para episiotomía.",https://practicingspanish.com/69luciano.html,"
+Ahora puedo ver el cabello y parte de la cabeza. Muy bien, descansar hasta la siguiente contracción. Enfermera, ¡dame las tijeras para la episiotomía!",,,,,,
+"Now I can see him. Go on, my sweetheart, you can!","¡Ya puedo verlo. Lo veo. Anda mi corazón, tú puedes!",https://practicingspanish.com/69luciano.html," ¡Ahora puedo verlo! ¡Adelante, mi amor!, ¿puedes!",,,,,,
+In the next contraction the doctor is going to make a little cut to help the baby come out. Here comes the contraction. Push one more time!,En la siguiente contracción la doctora va a hacer un pequeño corte para ayudar a salir al bebé. Aquí viene la contracción. ¡Puje una vez más!,https://practicingspanish.com/69luciano.html, En la próxima contracción el médico va a hacer un pequeño corto para ayudar al bebé a salir. Aquí viene la contracción. Empuja una más vez!,,,,,,
+"Perfect, head out. Very good, stop, do not push anymore! The baby is coming out. Here he is, it is a boy! Congratulations mom!","Perfecto, cabeza afuera. ¡Muy bien, pare, no puje más! El bebé está saliendo. ¡Aquí está, es un varón! ¡Felicitaciones mamá!",https://practicingspanish.com/69luciano.html," ¡Perfecto! ¡Salea la cabeza! Muy bien, para ya, no empujes más! ¡El bebé sale! ¡Es un chico! ¡Felicidades, mamá!",,,,,,
+"Fantastic, he is very beautiful!","¡Fantástico, es bellísimo!",https://practicingspanish.com/69luciano.html, ¡Fantástico! ¡Es muy guapo!,,,,,,
+Is my baby okay?,¿Mi bebé está bien?,https://practicingspanish.com/69luciano.html, ¿Mi bebé está bien?,,,,,,
+"Don't you hear how he cries? He is perfect. They are cleaning him, and they are going to show him to you. Ahh, here he comes now... Dad brings him. What is his name going to be?","¿No lo oye como llora? Está perfecto. Lo están limpiando y ya se lo van a mostrar. Ahh, aquí viene ya... Papá lo trae ¿Cómo se va a llamar?",https://practicingspanish.com/69luciano.html,"
+¿No escuchas cómo llora? ¡Es perfecto! ¡Van limpiándolo y van a presentarlo contigo! Ahí vieneee... ¡El padre se lo lleva! ¿Qué le van a llamar?",,,,,,
+"His name is Luciano. Luciano, I introduce you to your mom.","Su nombre es Luciano. Luciano, te presento a tu mamá.",https://practicingspanish.com/69luciano.html," Su nombre es Luciano. Luciano, te presento a tu madre.",,,,,,
+"Welcome to the world little son, I am your mom.","Bienvenido al mundo hijito, soy tu mamá.",https://practicingspanish.com/69luciano.html,"‟Bienvenido al mundo, pequeño hijo, soy tu madre”.",,,,,,
+,,,"
+
+1. The cat is sleeping on the bed. La gata está durmiendo en la cama.
+2. The dog is barking at the mailman. El perro está ladrándole al cartero.
+3. The baby is crying in the crib. El bebé está llorando en el coche.
+4. The teacher is writing on the blackboard. La profesora está escribiendo en la pizarra.
+5. The student is studying for the exam. El estudiante está estudiando para el examen.",,,,,,
+My daughter has a cough with a lot of phlegm.,Mi hija tiene tos con mucha flema.,https://practicingspanish.com/13liliana.html, Mi hija tiene una tos con mucha flema.,,,,,,
+Does she also have a fever?,¿También tiene fiebre?,https://practicingspanish.com/13liliana.html, ¿También tiene fiebre?,,,,,,
+"Yes, she has a high fever, and the mucus is greenish.","Sí, tiene fiebre alta, y el moco es verdoso.",https://practicingspanish.com/13liliana.html," Sí, tiene una fiebre alta y la mucosidad es verdeácida.",,,,,,
+Is she eating well?,¿Está comiendo bien?,https://practicingspanish.com/13liliana.html, ¿Come ella bien?,,,,,,
+She only wants liquids and she is somnolent.,Sólo quiere líquidos y está somnolienta.,https://practicingspanish.com/13liliana.html, Ella solo quiere líquidos y está somnolenta.,,,,,,
+"I hear some noises characteristic of pneumonia, here in the lower part of the right lung.","Se sienten algunos ruidos característicos de neumonía, aquí en la parte baja del pulmón derecho.",https://practicingspanish.com/13liliana.html, Escucho algunos ruidos característicos de la neumonía aquí en la parte inferior del pulmón derecho.,,,,,,
+Is it necessary to hospitalize her?,¿Hay que hospitalizarla?,https://practicingspanish.com/13liliana.html,"
+
+Please provide the sentence you want me to translate into Spanish.",,,,,,
+"Be calm, first we will request x-rays and laboratory tests. Later we will decide.","Tranquilícese, primero le pediremos rayos X de tórax y exámenes de laboratorio. Luego decidiremos.",https://practicingspanish.com/13liliana.html,,,,,,,
+"Ok, I wait for the results.","Está bien, espero los resultados.",https://practicingspanish.com/13liliana.html," ¡Ok, esperaré los resultados!",,,,,,
+I am going to admit your daughter. She has right basalar pneumonia.,Voy a ingresar a su hija. Tiene neumonía basal derecha.,https://practicingspanish.com/13liliana.html,"
+
+Please provide the sentence you want me to translate into Spanish, and I will be happy to help.",,,,,,
