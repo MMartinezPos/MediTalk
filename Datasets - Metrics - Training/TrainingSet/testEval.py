@@ -5,7 +5,7 @@ from transformers import T5ForConditionalGeneration
 import torch
 
 # Load the dataset
-dataset_dict = load_dataset('csv', data_files='OriginEvalSet.csv')
+dataset_dict = load_dataset('csv', data_files='GeneralEvalSet.csv')
 dataset = dataset_dict['train']
 
 # Load the T5 tokenizer and model
