@@ -132,3 +132,6 @@ dist
 
 # Python virtual environments
 venv
+
+# Uploads directory
+uploads/
