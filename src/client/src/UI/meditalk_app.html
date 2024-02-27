@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MediTalk - Medical Translation App</title>
+</head>
+<body>
+    <header>
+        <h1>MediTalk - Medical Translation App</h1>
+    </header>
+    
+    <main>
+        <!-- New section for buttons and translation boxes -->
+        <section class="translation-section">
+
+            <div class="buttons-container">
+                <button id = "micButton" onclick="toggleMic()">Mic is OFF</button>
+                <button onclick="showLanguageOptions()">Select Language</button>
+                <button onclick="logout()">Log Out</button>
+                <button onclick="endSessionConfirmation()">End Session</button>
+            </div>
+
+            <div id="languageOptions" class="hidden">
+                <button onclick="selectLanguage('English')">English</button>
+                <button onclick="selectLanguage('Spanish')">Spanish</button>
+            </div>
+
+            <div class="translation-container">
+                <div class="translation-box" id="englishBox">
+                    <h3>English</h3>
+                    <p id="englishText"></p>
+                </div>
+                
+                <div class="translation-box" id="spanishBox">
+                    <h3>Spanish</h3>
+                    <p id="spanishText"></p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MediTalk Web App</p>
+    </footer>
+
+    <script>
+        let micActive = false;
+
+        function toggleMic() {
+            micActive = !micActive;
+
+        // Get the mic button element
+        const micButton = document.getElementById("micButton");
+
+        // Update the text content based on the mic state
+        micButton.textContent = micActive ? "Mic is ON" : "Mic is OFF";
+
+            if (micActive) {
+                alert("Mic is active. Begin speaking.")
+            } else {
+                alert("Mic is now inactive. Toggle again to begin medical interpretation.")
+            }
+        }
+
+        function showLanguageOptions() {
+            document.getElementById("languageOptions").classList.toggle("hidden");
+        }
+
+        function selectLanguage(language) {
+            alert(`Selected language: ${language}`);
+            document.getElementById("languageOptions").classList.add("hidden");
+        }
+
+        function endSessionConfirmation() {
+            const confirmEnd = confirm("Are you sure you wish to end this session?");
+        if (confirmEnd) {
+            // If user clicks "yes," redirect to the post-interpretation page
+            window.location.href = "post_interpretation.html";
+        } else {
+            // If user clicks "no," do nothing
+        }
+        }
+
+        function logout() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
