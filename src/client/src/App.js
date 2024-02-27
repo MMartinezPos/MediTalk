@@ -9,6 +9,7 @@ import Log from './pages/Log';
 import NoPage from "./pages/NoPage";
 import routes from './routes';
 import './App.css';
+import BlogCopy from "./pages/BlogCopy";
 
 
 
@@ -22,7 +23,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog" element={<BlogCopy />} />
           <Route path="/log" element={<Log />} />
           <Route path="*" element={<NoPage />} />
         </Routes>

@@ -1,10 +1,10 @@
 import Home from './pages/Home';
-import Blog from './pages/Blog';
+import BlogCopy from './pages/BlogCopy';
 import Team from './pages/Team';
 
 const routes = [
   { path: '/', component: <Home />, exact: true },
-  { path: '/blog', component: <Blog /> },
+  { path: '/blog', component: <BlogCopy /> },
   { path: '/team', component: <Team /> },
 ];
 

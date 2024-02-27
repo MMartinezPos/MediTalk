@@ -25,10 +25,20 @@ from flask import Flask, jsonify, send_file, session, Response, jsonify, request
 from flask_cors import CORS, cross_origin
 from werkzeug.utils import secure_filename
 
+# get current directory of script
+# Define current working directory
+current_dir = os.getcwd()
+
 
 app = Flask(__name__)
 # Enable CORS
 cors = CORS(app)
+
+def delete_file(file_path):
+    if os.path.exists(file_path):
+        os.remove(file_path)
+    else:
+        print("The file does not exist")
 
 
 upload_directory = "/uploads"
@@ -54,6 +64,8 @@ load_dotenv()
 
 # Now, you can access the environment variables using the `os` module
 import os
+from speech_recognition import UnknownValueError
+from speech_recognition import RequestError
 
 # Get the variable
 the_api_key = os.getenv("API_KEY")
@@ -103,23 +115,23 @@ def play_audio(file_path):
 
 
 # Helper Method to delete files
-def delete_file(file_path):
-    """
-    Deletes a file at the specified path.
+# def delete_file(file_path):
+#     """
+#     Deletes a file at the specified path.
 
-    Args:
-        file_path (str): The path of the file to be deleted.
+#     Args:
+#         file_path (str): The path of the file to be deleted.
         
-    Returns:
-        bool: True if the file was successfully deleted, False otherwise.
-    """
-    if os.path.exists(file_path):
-        os.remove(file_path)
-        #print(f"The file at {file_path} has been successfully deleted.")
-        return True
-    else:
-        #print(f"The file at {file_path} does not exist.")
-        return False
+#     Returns:
+#         bool: True if the file was successfully deleted, False otherwise.
+#     """
+#     if os.path.exists(file_path):
+#         os.remove(file_path)
+#         #print(f"The file at {file_path} has been successfully deleted.")
+#         return True
+#     else:
+#         #print(f"The file at {file_path} does not exist.")
+#         return False
     
 
 
@@ -127,6 +139,8 @@ def delete_file(file_path):
 @app.route('/speech-to-text', methods=['POST'])
 @cross_origin()
 def speech_to_text():
+    # MOVED in order to define before use
+    current_time = int(time.time() * 1000)
     #### RECEIVE AND PROCESS REQUEST
    
     #print(request.content_type)
@@ -135,23 +149,15 @@ def speech_to_text():
 
     # Wrapper
     # Returns a FileStorage class which is a wrapper over incoming files
+    # Assuming you're receiving the file in a form field called 'file'
     the_file = request.files['file']
 
-    # Check if the file is empty
-    if the_file.filename == '':
-        return "No selected file", 400
+    # Use a relative path for the uploads directory
+    save_path = os.path.join('uploads', the_file.filename)
 
-    # Get the current working directory
-    current_dir = os.getcwd()
+    # Ensure the directory exists before saving the file
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
-    # Get the current epoch time in milliseconds
-    current_time = int(time.time() * 1000)
-
-    save_path = os.path.join(current_dir + "\\uploads", f"temp_{current_time}.webm")
-
-    # Before saving
-    the_file.seek(0)
-    # Now save file
     the_file.save(save_path)
 
     # IMPORTANT
@@ -256,7 +262,7 @@ def speech_to_text():
 
     # Write to an actual file
     # Get the current epoch time in milliseconds
-    current_time = int(time.time() * 1000)
+    # current_time = int(time.time() * 1000)
     new_filename = os.path.join(current_dir + "\\uploads", f"new_{current_time}.wav")
     tts.save(new_filename)
 
@@ -293,7 +299,7 @@ def speech_to_text():
     return send_file(
        new_filename, 
        mimetype="audio/wav", 
-       as_attachment=True)
+       as_attachment=False)
 
 
 
@@ -309,5 +315,5 @@ def remove_server_header(response):
 
 # For it to actually run
 if __name__ == '__main__':
-    app.run(debug=True, host="127.0.0.1", port="5000")
+    app.run(debug=True)
     
