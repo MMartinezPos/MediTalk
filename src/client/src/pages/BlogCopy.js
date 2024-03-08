@@ -11,9 +11,11 @@ function Session() {
     const [isRecording, setIsRecording] = useState(false);
     const [languageOptionsVisible, setLanguageOptionsVisible] = useState(false);
     const [audioSource, setAudioSource] = useState(null);
-    let audioRef = useRef(null);
+    const [englishText, setEnglishText] = useState('');
+    const [spanishText, setSpanishText] = useState('');
+    const [englishBoxFirst, setEnglishBoxFirst] = useState(true); // Track if English box should be first
 
-    
+    let audioRef = useRef(null);
 
     const constraints = {
         audio: {
@@ -23,9 +25,6 @@ function Session() {
         video: false,
     };
     const options = { mimeType: 'audio/webm' };
-
-
-
 
     const getMicrophonePermission = async () => {
         if (!permission && "MediaRecorder" in window) {
@@ -37,21 +36,15 @@ function Session() {
             alert(err.message);
           }
         } else {
-          // You can add a message or handle it differently if permission is already set
           console.log("Permission is already granted.");
         }
     };
     
     useEffect(() => {
-        // Run the function when the component is mounted
         getMicrophonePermission();
-    }, []); // Empty dependency array means this effect will run once after the initial render
-
-
-
+    }, []);
 
     const startRecording = async () => {
-        console.log('startRecording called')
         if (!(stream instanceof MediaStream)) {
             console.error('stream is not a MediaStream');
             return;
@@ -61,85 +54,93 @@ function Session() {
         mediaRecorder.current = media;
     
         mediaRecorder.current.ondataavailable = (event) => {
-           if (typeof event.data === "undefined") return;
-           if (event.data.size > 0) {
-             setAudioChunks((prevChunks) => [...prevChunks, event.data]);
-           }
+            if (typeof event.data === "undefined") return;
+            if (event.data.size > 0) {
+                setAudioChunks((prevChunks) => [...prevChunks, event.data]);
+            }
         };
     
         mediaRecorder.current.start();
     };
-
+    
     useEffect(() => {
         if (audioChunks.length > 0) {
             const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
-
-            // Create a FormData object
+    
             const formData = new FormData();
-
-            // Append the audio Blob as a file to the FormData object
             formData.append('file', audioBlob, 'audio.webm');
-
-            // Send the FormData object to the server
-            fetch('http://127.0.0.1:5000/speech-to-text', {
-                method: 'POST',
-                body: formData,
-            })
-            .then((response) => response.blob())
-            .then((audioBlob) => {
-                const audioUrl = URL.createObjectURL(audioBlob);
-                setAudioSrc(audioUrl);
-                const audio = new Audio(audioUrl);
-                audio.play();
-            });
-
-            // Clear the audio chunks after processing
+            formData.append('language', audioSource);
+    
+            // Add source_lang and target_lang to the formData
+            let source_lang, target_lang;
+            if (audioSource === 'English') {
+                source_lang = 'en';
+                target_lang = 'es';
+                setEnglishBoxFirst(true); // English box should be first
+            } else if (audioSource === 'Spanish') {
+                source_lang = 'es';
+                target_lang = 'en';
+                setEnglishBoxFirst(false); // Spanish box should be first
+            }
+    
+            console.log(`source_lang: ${source_lang}, target_lang: ${target_lang}`);
+            
+            // Fetch the translation data from the backend
+            fetchTranslation(formData, source_lang, target_lang);
+    
             setAudioChunks([]);
         }
-    }, [audioChunks]);
+    }, [audioChunks, audioSource]);
+    
+    const fetchTranslation = async (formData, source_lang, target_lang) => {
+        try {
+            const response = await fetch('http://127.0.0.1:5000/speech-to-text', {
+                method: 'POST',
+                body: formData,
+            });
+            const audioBlob = await response.blob();
+            const audioUrl = URL.createObjectURL(audioBlob);
+            setAudioSrc(audioUrl);
+            const audio = new Audio(audioUrl);
+            audio.play();
+    
+            const translationResponse = await fetch('http://127.0.0.1:5000/get-translation', {
+                method: 'GET',
+            });
+            const translationData = await translationResponse.json();
+            setEnglishText(translationData.englishText);
+            setSpanishText(translationData.spanishText);
+        } catch (error) {
+            console.error('Error fetching translation:', error);
+        }
+    };
 
     const stopRecording = () => {
         mediaRecorder.current.stop();
         setIsRecording(false);
     };
 
-
-
-
-
-
-
-    // React state update are asynchronous
-    // Need to use callback form
     const toggleMic = () => {
-        console.log('stopRecording called')
-        console.log(isRecording);
         setIsRecording(prevIsRecording => {
-            // Flip it
             const newIsRecording = !prevIsRecording;
     
             if (newIsRecording) {
-                // alert("Mic is active. Begin speaking.");
                 startRecording();
             } else {
-                // alert("Mic is now inactive. Toggle again to begin medical interpretation.");
                 stopRecording();
             }
     
-            // Return it to state variable
             return newIsRecording;
         });
     };
-
-
 
     const showLanguageOptions = () => {
         setLanguageOptionsVisible(!languageOptionsVisible);
     };
 
     const selectLanguage = (language) => {
-        alert(`Selected language: ${language}`);
         setLanguageOptionsVisible(false);
+        setAudioSource(language);
     };
 
     const navigate = useNavigate(); 
@@ -202,15 +203,33 @@ function Session() {
                     )}
 
                     <Box sx={{ display: 'flex', justifyContent: 'space-around', marginTop: '2rem' }}>
-                        <Box sx={{ border: '1px solid black', padding: '1rem', width: '40%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
-                            <Typography variant="h4">English</Typography>
-                            <Typography id="englishText"></Typography>
-                        </Box>
-
-                        <Box sx={{ border: '1px solid black', padding: '1rem', width: '50%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
-                            <Typography variant="h4">Spanish</Typography>
-                            <Typography id="spanishText"></Typography>
-                        </Box>
+                        {englishBoxFirst ? (
+                            <>
+                                <Box sx={{ border: '1px solid black', padding: '1rem', width: '40%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
+                                    <Typography variant="h4">English</Typography>
+                                    <Typography id="englishText">{englishText}</Typography>
+                                </Box>
+                                <Box sx={{ border: '1px solid black', padding: '1rem', width: '50%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
+                                    <Typography variant="h4">Spanish</Typography>
+                                    <Typography id="spanishText">{spanishText}</Typography>
+                                </Box>
+                            </>
+                        ) : (
+                            <>
+                                <Box sx={{ border: '1px solid black', padding: '1rem', width: '50%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
+                                    {/*this is intentional as it ahderes to the logic in the backend */}
+                                    {/* hopefully a neater way to accomplish this will be done in the future*/}
+                                    <Typography variant="h4">Spanish</Typography>
+                                    <Typography id="englishText">{englishText}</Typography>
+                                </Box>
+                                <Box sx={{ border: '1px solid black', padding: '1rem', width: '40%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
+                                    {/*this is intentional as it ahderes to the logic in the backend */}
+                                    {/* hopefully a neater way to accomplish this will be done in the future*/}
+                                    <Typography variant="h4">English</Typography>
+                                    <Typography id="spanishText">{spanishText}</Typography>
+                                </Box>
+                            </>
+                        )}
                     </Box>
                 </section>
             </main>
