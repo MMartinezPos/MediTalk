@@ -79,18 +79,34 @@ the_api_key = os.getenv("API_KEY")
 client = OpenAI(api_key=the_api_key)
 
 # ChatGPT Wrapper Method with optional parameters (ones with default values)
-def chatgpt_call(prompt, model="gpt-3.5-turbo", temperature=0, n=1, max_tokens=256):
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": "You will be provided with a sentence in English, and your task is to translate it into Spanish."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=temperature,
-        n=n,
-        max_tokens=max_tokens
-    )
-    return response.choices[0].message.content
+def chatgpt_call(prompt, source_lang="en", target_lang="es", model="gpt-3.5-turbo", temperature=0, n=1, max_tokens=256):
+    # Define prompt messages based on source and target languages
+    if source_lang == "en" and target_lang == "es":
+        prompt_message = "You will be provided with a sentence in English, and your task is to translate it into Spanish."
+    elif source_lang == "es" and target_lang == "en":
+        prompt_message = "You will be provided with a sentence in Spanish, and your task is to translate it into English."
+    else:
+        raise ValueError("Unsupported language pair")
+
+    # Generate response from the GPT model
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": prompt_message},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=temperature,
+            n=n,
+            max_tokens=max_tokens
+        )
+        translated_text = response.choices[0].message.content
+        return translated_text
+    except Exception as e:
+        print(f"Error during GPT model call: {e}")
+        return None
+
+
 
 
 
@@ -134,6 +150,8 @@ def play_audio(file_path):
 #         return False
     
 
+translations = {}
+
 
 # REST API ENDPOINT
 @app.route('/speech-to-text', methods=['POST'])
@@ -164,47 +182,21 @@ def speech_to_text():
     # If the destination is a file object you have to close it yourself after the call. 
     the_file.close()
 
-
-
-
-
+    selected_language = request.form.get('language')
+    if selected_language == "Spanish":
+        translate_to = "en"
+    else:
+        translate_to = "es"
 
     #### SPEECH TO TEXT
 
     # Load the WebM audio file
     audio = AudioSegment.from_file(save_path, format="webm")
 
-     # Export the audio to WAV format for audio purposes
+    # Export the audio to WAV format for audio purposes
     out_path = os.path.join(current_dir + "\\uploads", f"temp_{current_time}.wav")
     audio.export(out_path, format="wav")
 
-
-    # Source: https://gist.github.com/mjul/32d697b734e7e9171cdb
-    # Create a BytesIO object from the provided byte data
-    # expects binary-like objects and produces bytes objects
-    # BytesIO For Managing Data As File Object in Python
-    # Yes, BytesIO (and StringIO) are in-memory buffers that behave like files.
-    # in_memory_file = BytesIO(file_content)
-
-    # the_file.save(in_memory_file)
-
-    # print(in_memory_file)
-    # print(in_memory_file.getvalue())
-    
-    # Debugging
-    print("GOT REQUEST FROM BROWSER")
-
-    
-   # PAY ATTENTION HERE
-   # https://www.nickmccullum.com/python-speech-recognition/
-   # The following file formats are supported by SpeechRecognition:
-
-    # wav
-    # aiff
-    # aiff-c
-    # flac
-
-    # https://github.com/Uberi/speech_recognition/blob/master/examples/audio_transcribe.py    
     with sr.AudioFile(out_path) as source:
         audio = recognizer.record(source)  # read the entire audio file
         
@@ -212,7 +204,10 @@ def speech_to_text():
     # Recognize audio using Google Speech Recognition
     try:
         # Recognize audio using Google Speech Recognition
-        text = recognizer.recognize_google(audio, language="en-US")
+        if selected_language == "Spanish":
+            text = recognizer.recognize_google(audio, language="es-MX")
+        else:
+            text = recognizer.recognize_google(audio, language="en-US")
         print("Recognized text:", text)
 
     except UnknownValueError:
@@ -223,36 +218,31 @@ def speech_to_text():
 
     except TimeoutError:
         print("Google Speech Recognition request timed out")
-    print(text)
-    english_text = text
+    # print(text)
+    # english_text = text
     print(f"You said: {text}")
-
-
-
-
-
 
     #### IMPORTANT PART: Translating/Interpreting Step here
 
+    # My issue is maybe somewhere here!!!!!!!!!!!!!!!!!!!!!!!!
+
     prompt = text
     # THE FUNCTION CALL THAT DOES THE TRANSLATING/INTERPRETING
-    response = chatgpt_call(prompt, model="gpt-4")
+    response = chatgpt_call(prompt, model="gpt-3.5-turbo")
     print(f"The model says: {response}")
     text = response
-    spanish_text = text
+    # spanish_text = text
 
-
-
-
-
+    translations['prompt'] = prompt
+    translations['text'] = text
+    
 
     #### TEXT-TO-SPEECH
 
     # Initialize the gTTS object
     # AND DO THE TEXT TO SPEECH PROCESSING
-    tts = gTTS(text=text, lang='es', tld='com.mx')
-
-    # Source: https://blog.furas.pl/python-how-to-play-mp3-from-gtts-as-bytes-without-saving-on-disk-gb.html
+    # print("Translate to language code: ", translate_to)
+    tts = gTTS(text=text, lang=translate_to, tld='com.mx')
 
     # Save the speech as an in-memory BytesIO object
     audio_data = BytesIO()
@@ -261,25 +251,11 @@ def speech_to_text():
     tts.write_to_fp(audio_data)
 
     # Write to an actual file
-    # Get the current epoch time in milliseconds
-    # current_time = int(time.time() * 1000)
     new_filename = os.path.join(current_dir + "\\uploads", f"new_{current_time}.wav")
     tts.save(new_filename)
 
     # Rewind the audio data
     audio_data.seek(0)
-
-    # FOR PLAYING OUT LOUD IN PYTHON
-    # Read the audio data as a NumPy array using soundfile
-    # IMPORTANT, need both the audio and the sample rate
-    audio_array, sample_rate = sf.read(BytesIO(audio_data.read()))
-
-    # Play the audio IN PYTHON HERE, NOT THE BROWSER
-    # sd.play(audio_array, sample_rate * 0.95)
-    # sd.wait()
-    
-
-
 
     #### RETURN THE AUDIO FILE & JSON
 
@@ -287,11 +263,7 @@ def speech_to_text():
     delete_file(save_path)
     delete_file(out_path)
 
-    # RETURN JSON WITH NO AUDIO FILE
-    # In Flask, use jsonify() instead of json.dumps() in Flask
-    # return jsonify({"English": english_text,
-    #                    "Spanish": spanish_text
-    #                  }), 200
+    # return jsonify({'englishText': prompt, 'spanishText': text}), 200
 
     # Exits the Flask REST METHOD
     # Return actual AUDIO FILE ITSELF WITHOUT JSON
@@ -299,7 +271,19 @@ def speech_to_text():
     return send_file(
        new_filename, 
        mimetype="audio/wav", 
-       as_attachment=False)
+       as_attachment=False,
+    )
+
+@app.route('/get-translation', methods=['GET'])
+@cross_origin()
+def get_translation():
+    # retrieve the english and spanish text from the session
+
+    prompt = translations.get('prompt', 'No prompt found')
+    text = translations.get('text', 'No text found')
+
+    return jsonify({'englishText': prompt, 'spanishText': text}), 200
+
 
 
 
@@ -316,4 +300,3 @@ def remove_server_header(response):
 # For it to actually run
 if __name__ == '__main__':
     app.run(debug=True)
-    
