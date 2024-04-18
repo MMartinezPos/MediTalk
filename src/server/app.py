@@ -25,6 +25,10 @@ from flask import Flask, jsonify, send_file, session, Response, jsonify, request
 from flask_cors import CORS, cross_origin
 from werkzeug.utils import secure_filename
 
+
+from transformers import MarianMTModel, MarianTokenizer
+import torch
+
 # get current directory of script
 # Define current working directory
 current_dir = os.getcwd()
@@ -41,7 +45,17 @@ def delete_file(file_path):
         print("The file does not exist")
 
 
-upload_directory = "/uploads"
+# upload_directory = "/uploads"
+
+####
+# This bottom code is for mac version
+####
+# Get the directory of the current file
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Create the path to the uploads directory
+upload_directory = os.path.join(current_directory, 'uploads')
+
 
 if not os.path.exists(upload_directory):
     os.mkdir(upload_directory)
@@ -67,51 +81,114 @@ import os
 from speech_recognition import UnknownValueError
 from speech_recognition import RequestError
 
-# Get the variable
-the_api_key = os.getenv("API_KEY")
+# # Get the variable
+# the_api_key = os.getenv("API_KEY")
+
+# # CHATGPT SETUP
+
+# # Initialize the OpenAI client with the API key
+# client = OpenAI(api_key=the_api_key)
+
+# # ChatGPT Wrapper Method with optional parameters (ones with default values)
+# def chatgpt_call(prompt, source_lang="en", target_lang="es", model="gpt-3.5-turbo", temperature=0, n=1, max_tokens=256):
+#     # Define prompt messages based on source and target languages
+#     if source_lang == "en" and target_lang == "es":
+#         prompt_message = "You will be provided with a sentence in English, and your task is to translate it into Spanish."
+#     elif source_lang == "es" and target_lang == "en":
+#         prompt_message = "You will be provided with a sentence in Spanish, and your task is to translate it into English."
+#     else:
+#         raise ValueError("Unsupported language pair")
+
+#     # Generate response from the GPT model
+#     try:
+#         response = client.chat.completions.create(
+#             model=model,
+#             messages=[
+#                 {"role": "system", "content": prompt_message},
+#                 {"role": "user", "content": prompt}
+#             ],
+#             temperature=temperature,
+#             n=n,
+#             max_tokens=max_tokens
+#         )
+#         translated_text = response.choices[0].message.content
+#         return translated_text
+#     except Exception as e:
+#         print(f"Error during GPT model call: {e}")
+#         return None
 
 
+# Model and tokenizer setup for both base and trained models
+# Base Models
+ENESbase = "Helsinki-NLP/opus-mt-en-es"
+tokenizer_base_enes = MarianTokenizer.from_pretrained(ENESbase)
+model_base_enes = MarianMTModel.from_pretrained(ENESbase)
+device_base_enes = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model_base_enes.to(device_base_enes)
 
+ESENbase = "Helsinki-NLP/opus-mt-es-en"
+tokenizer_base_esen = MarianTokenizer.from_pretrained(ESENbase)
+model_base_esen = MarianMTModel.from_pretrained(ESENbase)
+device_base_esen = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model_base_esen.to(device_base_esen)
 
-# CHATGPT SETUP
+# Trained Models
+ENESTrained = "./ModelVersions/EN_ES_Iteration"
+tokenizer_trained_enes = MarianTokenizer.from_pretrained(ENESTrained)
+model_trained_enes = MarianMTModel.from_pretrained(ENESTrained)
+device_trained_enes = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model_trained_enes.to(device_trained_enes)
 
-# Initialize the OpenAI client with the API key
-client = OpenAI(api_key=the_api_key)
+ESENTrained = "./ModelVersions/ES_EN_Iteration"
+tokenizer_trained_esen = MarianTokenizer.from_pretrained(ESENTrained)
+model_trained_esen = MarianMTModel.from_pretrained(ESENTrained)
+device_trained_esen = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model_trained_esen.to(device_trained_esen)
 
-# ChatGPT Wrapper Method with optional parameters (ones with default values)
-def chatgpt_call(prompt, source_lang="en", target_lang="es", model="gpt-3.5-turbo", temperature=0, n=1, max_tokens=256):
-    # Define prompt messages based on source and target languages
-    if source_lang == "en" and target_lang == "es":
-        prompt_message = "You will be provided with a sentence in English, and your task is to translate it into Spanish."
-    elif source_lang == "es" and target_lang == "en":
-        prompt_message = "You will be provided with a sentence in Spanish, and your task is to translate it into English."
-    else:
-        raise ValueError("Unsupported language pair")
+def translate(text, source_lang, target_lang):
+    prefix = f">>{target_lang}<< "
+    prefixed_text = prefix + text
 
-    # Generate response from the GPT model
     try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[
-                {"role": "system", "content": prompt_message},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=temperature,
-            n=n,
-            max_tokens=max_tokens
-        )
-        translated_text = response.choices[0].message.content
-        return translated_text
+        if source_lang == "en" and target_lang == "es":
+            # Base model EN-ES
+            inputs_base = tokenizer_base_enes(prefixed_text, return_tensors="pt", padding=True, truncation=True, max_length=512)
+            inputs_base = {k: v.to(device_base_enes) for k, v in inputs_base.items()}
+            outputs_base = model_base_enes.generate(**inputs_base)
+
+            # Trained model EN-ES
+            inputs_trained = tokenizer_trained_enes(prefixed_text, return_tensors="pt", padding=True, truncation=True, max_length=512)
+            inputs_trained = {k: v.to(device_trained_enes) for k, v in inputs_trained.items()}
+            outputs_trained = model_trained_enes.generate(**inputs_trained)
+
+        elif source_lang == "es" and target_lang == "en":
+            # Base model ES-EN
+            inputs_base = tokenizer_base_esen(prefixed_text, return_tensors="pt", padding=True, truncation=True, max_length=512)
+            inputs_base = {k: v.to(device_base_esen) for k, v in inputs_base.items()}
+            outputs_base = model_base_esen.generate(**inputs_base)
+
+            # Trained model ES-EN
+            inputs_trained = tokenizer_trained_esen(prefixed_text, return_tensors="pt", padding=True, truncation=True, max_length=512)
+            inputs_trained = {k: v.to(device_trained_esen) for k, v in inputs_trained.items()}
+            outputs_trained = model_trained_esen.generate(**inputs_trained)
+
+        else:
+            raise ValueError("Unsupported language pair")
+
+        # Decode the tokens to strings
+        translation_base = tokenizer_base_enes.decode(outputs_base[0], skip_special_tokens=True)
+        translation_trained = tokenizer_trained_enes.decode(outputs_trained[0], skip_special_tokens=True)
+
+        return translation_base, translation_trained
+
     except Exception as e:
-        print(f"Error during GPT model call: {e}")
-        return None
-
-
-
+        print(f"Error during translation: {e}")
+        return None, None
 
 
 
 # PYTHON AUDIO SETUP
+# Test
 
 # Initialize the recognizer
 recognizer = sr.Recognizer()
@@ -194,7 +271,8 @@ def speech_to_text():
     audio = AudioSegment.from_file(save_path, format="webm")
 
     # Export the audio to WAV format for audio purposes
-    out_path = os.path.join(current_dir + "\\uploads", f"temp_{current_time}.wav")
+    # out_path = os.path.join(current_dir + "\\uploads", f"temp_{current_time}.wav")
+    out_path = os.path.join(current_dir, "uploads", f"temp_{current_time}.wav")
     audio.export(out_path, format="wav")
 
     with sr.AudioFile(out_path) as source:
@@ -220,21 +298,20 @@ def speech_to_text():
         print("Google Speech Recognition request timed out")
     # print(text)
     # english_text = text
-    print(f"You said: {text}")
+    # print(f"You said: {text}")
 
     #### IMPORTANT PART: Translating/Interpreting Step here
 
     # My issue is maybe somewhere here!!!!!!!!!!!!!!!!!!!!!!!!
 
-    prompt = text
+    # prompt = text
     # THE FUNCTION CALL THAT DOES THE TRANSLATING/INTERPRETING
-    response = chatgpt_call(prompt, model="gpt-3.5-turbo")
-    print(f"The model says: {response}")
-    text = response
+    # response = chatgpt_call(prompt, model="gpt-3.5-turbo")
+    # print(f"The model says: {response}")
+    recognized_text = text
     # spanish_text = text
 
-    translations['prompt'] = prompt
-    translations['text'] = text
+    # translations['prompt'] = recognized_text # prompt
     
 
     #### TEXT-TO-SPEECH
@@ -242,7 +319,18 @@ def speech_to_text():
     # Initialize the gTTS object
     # AND DO THE TEXT TO SPEECH PROCESSING
     # print("Translate to language code: ", translate_to)
-    tts = gTTS(text=text, lang=translate_to, tld='com.mx')
+    # Translate the text
+    source_lang = "es" if selected_language == "Spanish" else "en"
+    target_lang = "en" if selected_language == "Spanish" else "es"
+    base_text, trained_text  = translate(recognized_text, source_lang, target_lang)
+    print(f"Base text: {base_text}\n Trained text: {trained_text}")
+    # translations['base_text'] = base_text # response
+    # translations['trained_text'] = trained_text # response
+    # Determine the correct language code for gTTS based on the target language
+    tts_lang_code = target_lang
+    # tts = gTTS(text=translated_text, lang=translate_to, tld='com.mx')
+    tts = gTTS(text=trained_text, lang=target_lang, tld='com.mx' if tts_lang_code == 'es' else 'com')
+
 
     # Save the speech as an in-memory BytesIO object
     audio_data = BytesIO()
@@ -251,7 +339,9 @@ def speech_to_text():
     tts.write_to_fp(audio_data)
 
     # Write to an actual file
-    new_filename = os.path.join(current_dir + "\\uploads", f"new_{current_time}.wav")
+    # new_filename = os.path.join(current_dir + "\\uploads", f"new_{current_time}.wav")
+    new_filename = os.path.join(current_dir, "uploads", f"new_{current_time}.wav")
+
     tts.save(new_filename)
 
     # Rewind the audio data
@@ -264,6 +354,12 @@ def speech_to_text():
     delete_file(out_path)
 
     # return jsonify({'englishText': prompt, 'spanishText': text}), 200
+    global translations # to access the translations dictionary
+    translations = {
+        'promptText': recognized_text,
+        'BaseText': base_text,
+        'TrainedText': trained_text
+    }
 
     # Exits the Flask REST METHOD
     # Return actual AUDIO FILE ITSELF WITHOUT JSON
@@ -274,16 +370,33 @@ def speech_to_text():
        as_attachment=False,
     )
 
-@app.route('/get-translation', methods=['GET'])
-@cross_origin()
+
+
+
+# @app.route('/get-translation', methods=['GET'])
+# @cross_origin()
+# def get_translation():
+#     # retrieve the english and spanish text from the session
+
+#     prompt = translations.get('prompt', 'No prompt found')
+#     text = translations.get('text', 'No text found')
+
+#     return jsonify({'englishText': prompt, 'spanishText': text}), 200
+
+
+
+# Additional endpoint to get translations as JSON
+@app.route('/get_translation', methods=['GET'])
 def get_translation():
-    # retrieve the english and spanish text from the session
-
-    prompt = translations.get('prompt', 'No prompt found')
-    text = translations.get('text', 'No text found')
-
-    return jsonify({'englishText': prompt, 'spanishText': text}), 200
-
+    promptText = translations.get('promptText', 'No prompt text found')
+    BaseText = translations.get('BaseText', 'No base model translation found')
+    TrainedText = translations.get('TrainedText', 'No trained model translation found')
+    
+    return jsonify({
+        'PromptText': promptText,
+        'BaseText': BaseText,
+        'TrainedText': TrainedText
+    }), 200
 
 
 

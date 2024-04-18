@@ -11,8 +11,11 @@ function Session() {
     const [isRecording, setIsRecording] = useState(false);
     const [languageOptionsVisible, setLanguageOptionsVisible] = useState(false);
     const [audioSource, setAudioSource] = useState(null);
-    const [englishText, setEnglishText] = useState('');
-    const [spanishText, setSpanishText] = useState('');
+    // const [englishText, setEnglishText] = useState('');
+    // const [spanishText, setSpanishText] = useState('');
+    const [promptText, setPromptText] = useState('');
+    const [baseTranslation, setBaseTranslation] = useState('');
+    const [trainedTranslation, setTrainedTranslation] = useState('');
     const [englishBoxFirst, setEnglishBoxFirst] = useState(true); // Track if English box should be first
 
     let audioRef = useRef(null);
@@ -104,12 +107,16 @@ function Session() {
             const audio = new Audio(audioUrl);
             audio.play();
     
-            const translationResponse = await fetch('http://127.0.0.1:5000/get-translation', {
+            const translationResponse = await fetch('http://127.0.0.1:5000/get_translation', {
                 method: 'GET',
             });
             const translationData = await translationResponse.json();
-            setEnglishText(translationData.englishText);
-            setSpanishText(translationData.spanishText);
+            console.log(translationData);
+        
+            setPromptText(translationData.PromptText);
+            setBaseTranslation(translationData.BaseText);
+            setTrainedTranslation(translationData.TrainedText);
+
         } catch (error) {
             console.error('Error fetching translation:', error);
         }
@@ -207,11 +214,14 @@ function Session() {
                             <>
                                 <Box sx={{ border: '1px solid black', padding: '1rem', width: '40%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
                                     <Typography variant="h4">English</Typography>
-                                    <Typography id="englishText">{englishText}</Typography>
+                                    <Typography id="englishText">{promptText}</Typography>
                                 </Box>
                                 <Box sx={{ border: '1px solid black', padding: '1rem', width: '50%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
                                     <Typography variant="h4">Spanish</Typography>
-                                    <Typography id="spanishText">{spanishText}</Typography>
+                                    <Typography variant="h5">Base Model:</Typography>
+                                    <Typography>{baseTranslation}</Typography>
+                                    <Typography variant="h5">Trained Model:</Typography>
+                                    <Typography>{trainedTranslation}</Typography>
                                 </Box>
                             </>
                         ) : (
@@ -220,13 +230,14 @@ function Session() {
                                     {/*this is intentional as it ahderes to the logic in the backend */}
                                     {/* hopefully a neater way to accomplish this will be done in the future*/}
                                     <Typography variant="h4">Spanish</Typography>
-                                    <Typography id="englishText">{englishText}</Typography>
+                                    <Typography id="englishText">{promptText}</Typography>
                                 </Box>
-                                <Box sx={{ border: '1px solid black', padding: '1rem', width: '40%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
-                                    {/*this is intentional as it ahderes to the logic in the backend */}
-                                    {/* hopefully a neater way to accomplish this will be done in the future*/}
-                                    <Typography variant="h4">English</Typography>
-                                    <Typography id="spanishText">{spanishText}</Typography>
+                                <Box sx={{ border: '1px solid black', padding: '1rem', width: '50%', minHeight: '200px', marginRight: '1rem', marginLeft: '1rem', flexGrow: 1 }}>
+                                    <Typography variant="h4">Translations</Typography>
+                                    <Typography variant="h5">Base Model:</Typography>
+                                    <Typography>{baseTranslation}</Typography>
+                                    <Typography variant="h5">Trained Model:</Typography>
+                                    <Typography>{trainedTranslation}</Typography>
                                 </Box>
                             </>
                         )}
