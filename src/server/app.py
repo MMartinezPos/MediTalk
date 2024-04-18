@@ -26,7 +26,7 @@ from flask_cors import CORS, cross_origin
 from werkzeug.utils import secure_filename
 
 
-from transformers import MarianMTModel, MarianTokenizer
+from transformers import MarianMTModel, MarianTokenizer, AutoModelForSeq2SeqLM, AutoTokenizer
 import torch
 
 # get current directory of script
@@ -136,14 +136,14 @@ model_base_esen.to(device_base_esen)
 
 # Trained Models
 ENESTrained = "MMartinezPos/EN_ES_Iteration"
-tokenizer_trained_enes = MarianTokenizer.from_pretrained(ENESTrained)
-model_trained_enes = MarianMTModel.from_pretrained(ENESTrained)
+tokenizer_trained_enes = AutoTokenizer.from_pretrained(ENESTrained)
+model_trained_enes = AutoModelForSeq2SeqLM.from_pretrained(ENESTrained)
 device_trained_enes = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_trained_enes.to(device_trained_enes)
 
 ESENTrained = "MMartinezPos/ES_EN_Iteration"
-tokenizer_trained_esen = MarianTokenizer.from_pretrained(ESENTrained)
-model_trained_esen = MarianMTModel.from_pretrained(ESENTrained)
+tokenizer_trained_esen = AutoTokenizer.from_pretrained(ESENTrained)
+model_trained_esen = AutoModelForSeq2SeqLM.from_pretrained(ESENTrained)
 device_trained_esen = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_trained_esen.to(device_trained_esen)
 
