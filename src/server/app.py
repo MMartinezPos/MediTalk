@@ -120,6 +120,8 @@ from speech_recognition import RequestError
 
 # Model and tokenizer setup for both base and trained models
 # Base Models
+
+
 ENESbase = "Helsinki-NLP/opus-mt-en-es"
 tokenizer_base_enes = MarianTokenizer.from_pretrained(ENESbase)
 model_base_enes = MarianMTModel.from_pretrained(ENESbase)
@@ -133,13 +135,13 @@ device_base_esen = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_base_esen.to(device_base_esen)
 
 # Trained Models
-ENESTrained = "./ModelVersions/EN_ES_Iteration"
+ENESTrained = "MMartinezPos/EN_ES_Iteration"
 tokenizer_trained_enes = MarianTokenizer.from_pretrained(ENESTrained)
 model_trained_enes = MarianMTModel.from_pretrained(ENESTrained)
 device_trained_enes = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_trained_enes.to(device_trained_enes)
 
-ESENTrained = "./ModelVersions/ES_EN_Iteration"
+ESENTrained = "MMartinezPos/ES_EN_Iteration"
 tokenizer_trained_esen = MarianTokenizer.from_pretrained(ESENTrained)
 model_trained_esen = MarianMTModel.from_pretrained(ESENTrained)
 device_trained_esen = torch.device("cuda" if torch.cuda.is_available() else "cpu")
